@@ -1,0 +1,70 @@
+{
+  "checkedDocuments": [
+    "21년도 22년도.pdf",
+    "23년도.pdf",
+    "23년도 답지.pdf",
+    "24년도.pdf",
+    "24년도 암기문항 정리.pdf"
+  ],
+  "scope": "TypeBook 1~7장 본문 및 연습문제",
+  "excluded": [
+    {
+      "source": "2021 기출",
+      "number": 10,
+      "reason": "다중 프로그래밍·멀티태스킹 비교"
+    },
+    {
+      "source": "2021 기출",
+      "number": 16,
+      "reason": "프로세스 상태 전이"
+    },
+    {
+      "source": "2021 기출",
+      "number": 17,
+      "reason": "최악 적합 메모리 할당"
+    },
+    {
+      "source": "2021 기출",
+      "number": 18,
+      "reason": "페이징·프레임 주소 분해"
+    },
+    {
+      "source": "2021 기출",
+      "number": 19,
+      "reason": "SJF 스케줄링"
+    },
+    {
+      "source": "2021 기출",
+      "number": 20,
+      "reason": "페이징 내부 단편화"
+    },
+    {
+      "source": "2022 기출",
+      "number": 10,
+      "reason": "Multics·Unix·Linux·macOS 계보"
+    },
+    {
+      "source": "2022 기출",
+      "number": 11,
+      "reason": "SIMD 배열 병렬 프로그래밍"
+    },
+    {
+      "source": "2023 기출",
+      "number": 17,
+      "reason": "최악 적합 메모리 할당"
+    }
+  ],
+  "retainedReferences": 66,
+  "identicalFile": {
+    "file": "24년도.pdf",
+    "sameAs": "컴퓨터시스템_2025_미경_중간고사.pdf",
+    "sha256": "2b32aabc90def826a14f0b29d5ae3ecb1e091bffb5af92cc982ce99d1c82d849"
+  },
+  "corrections": [
+    "2의 보수에도 부호 판단을 하는 최상위 비트가 있음",
+    "축소 부동소수점의 특수 지수 예약 여부 명시",
+    "C++ char 부호 및 변환 환경 명시",
+    "MB의 이진 단위 관례 명시",
+    "클라우드 자체를 폰 노이만 병목 해결 구조로 제시한 답안 수정"
+  ]
+}

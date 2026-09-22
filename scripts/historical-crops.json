@@ -1,0 +1,728 @@
+{
+  "y21-1": {
+    "image": "/exam-originals/historical-y21-1.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          146.63751220703125,
+          535.0,
+          167.91250610351562
+        ]
+      }
+    ]
+  },
+  "y21-2": {
+    "image": "/exam-originals/historical-y21-2.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          168.91250610351562,
+          535.0,
+          190.8625030517578
+        ]
+      }
+    ]
+  },
+  "y21-3": {
+    "image": "/exam-originals/historical-y21-3.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          191.8625030517578,
+          535.0,
+          213.13751220703125
+        ]
+      }
+    ]
+  },
+  "y21-4": {
+    "image": "/exam-originals/historical-y21-4.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          214.13751220703125,
+          535.0,
+          257.6875305175781
+        ]
+      }
+    ]
+  },
+  "y21-5": {
+    "image": "/exam-originals/historical-y21-5.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          258.6875305175781,
+          535.0,
+          296.8374938964844
+        ]
+      }
+    ]
+  },
+  "y21-6": {
+    "image": "/exam-originals/historical-y21-6.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          297.8374938964844,
+          535.0,
+          378.51251220703125
+        ]
+      }
+    ]
+  },
+  "y21-7": {
+    "image": "/exam-originals/historical-y21-7.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          379.51251220703125,
+          535.0,
+          423.0625
+        ]
+      }
+    ]
+  },
+  "y21-8": {
+    "image": "/exam-originals/historical-y21-8.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          424.0625,
+          535.0,
+          483.13751220703125
+        ]
+      }
+    ]
+  },
+  "y21-9": {
+    "image": "/exam-originals/historical-y21-9.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          484.13751220703125,
+          535.0,
+          527.6875
+        ]
+      }
+    ]
+  },
+  "y21-11": {
+    "image": "/exam-originals/historical-y21-11.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          616.4375,
+          535.0,
+          659.3125
+        ]
+      }
+    ]
+  },
+  "y21-12": {
+    "image": "/exam-originals/historical-y21-12.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          62.0,
+          660.3125,
+          535.0,
+          780.0
+        ]
+      },
+      {
+        "page": 2,
+        "rect": [
+          62.0,
+          65.0,
+          535.0,
+          265.1125183105469
+        ]
+      }
+    ]
+  },
+  "y21-13": {
+    "image": "/exam-originals/historical-y21-13.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          62.0,
+          266.1125183105469,
+          535.0,
+          497.3125915527344
+        ]
+      }
+    ]
+  },
+  "y21-14": {
+    "image": "/exam-originals/historical-y21-14.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          62.0,
+          498.3125915527344,
+          535.0,
+          573.5874633789062
+        ]
+      }
+    ]
+  },
+  "y21-15": {
+    "image": "/exam-originals/historical-y21-15.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          62.0,
+          574.5874633789062,
+          535.0,
+          672.1375122070312
+        ]
+      }
+    ]
+  },
+  "y22-1": {
+    "image": "/exam-originals/historical-y22-1.png",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          62.0,
+          150.68765258789062,
+          535.0,
+          296.8375549316406
+        ]
+      }
+    ]
+  },
+  "y22-2": {
+    "image": "/exam-originals/historical-y22-2.png",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          62.0,
+          297.8375549316406,
+          535.0,
+          335.3126525878906
+        ]
+      }
+    ]
+  },
+  "y22-3": {
+    "image": "/exam-originals/historical-y22-3.png",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          62.0,
+          336.3126525878906,
+          535.0,
+          412.2626037597656
+        ]
+      }
+    ]
+  },
+  "y22-4": {
+    "image": "/exam-originals/historical-y22-4.png",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          62.0,
+          413.2626037597656,
+          535.0,
+          456.8126525878906
+        ]
+      }
+    ]
+  },
+  "y22-5": {
+    "image": "/exam-originals/historical-y22-5.png",
+    "regions": [
+      {
+        "page": 4,
+        "rect": [
+          62.0,
+          457.8126525878906,
+          535.0,
+          780.0
+        ]
+      },
+      {
+        "page": 5,
+        "rect": [
+          62.0,
+          65.0,
+          535.0,
+          91.6375961303711
+        ]
+      }
+    ]
+  },
+  "y22-6": {
+    "image": "/exam-originals/historical-y22-6.png",
+    "regions": [
+      {
+        "page": 5,
+        "rect": [
+          62.0,
+          92.6375961303711,
+          535.0,
+          323.8375549316406
+        ]
+      }
+    ]
+  },
+  "y22-7": {
+    "image": "/exam-originals/historical-y22-7.png",
+    "regions": [
+      {
+        "page": 5,
+        "rect": [
+          62.0,
+          324.8375549316406,
+          535.0,
+          648.5125732421875
+        ]
+      }
+    ]
+  },
+  "y22-8": {
+    "image": "/exam-originals/historical-y22-8.png",
+    "regions": [
+      {
+        "page": 5,
+        "rect": [
+          62.0,
+          649.5125732421875,
+          535.0,
+          780.0
+        ]
+      },
+      {
+        "page": 6,
+        "rect": [
+          62.0,
+          65.0,
+          535.0,
+          336.6625061035156
+        ]
+      }
+    ]
+  },
+  "y22-9": {
+    "image": "/exam-originals/historical-y22-9.png",
+    "regions": [
+      {
+        "page": 6,
+        "rect": [
+          62.0,
+          337.6625061035156,
+          535.0,
+          435.2125549316406
+        ]
+      }
+    ]
+  },
+  "y23-1": {
+    "image": "/exam-originals/historical-y23-1.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          101.2470703125,
+          535.0,
+          238.20361328125
+        ]
+      }
+    ]
+  },
+  "y23-2": {
+    "image": "/exam-originals/historical-y23-2.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          239.20361328125,
+          535.0,
+          303.97802734375
+        ]
+      }
+    ]
+  },
+  "y23-3": {
+    "image": "/exam-originals/historical-y23-3.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          304.97802734375,
+          535.0,
+          369.75244140625
+        ]
+      }
+    ]
+  },
+  "y23-4": {
+    "image": "/exam-originals/historical-y23-4.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          370.75244140625,
+          535.0,
+          402.6396484375
+        ]
+      }
+    ]
+  },
+  "y23-5": {
+    "image": "/exam-originals/historical-y23-5.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          403.6396484375,
+          535.0,
+          468.4140625
+        ]
+      }
+    ]
+  },
+  "y23-6": {
+    "image": "/exam-originals/historical-y23-6.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          469.4140625,
+          535.0,
+          534.1884765625
+        ]
+      }
+    ]
+  },
+  "y23-7": {
+    "image": "/exam-originals/historical-y23-7.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          535.1884765625,
+          535.0,
+          583.519287109375
+        ]
+      }
+    ]
+  },
+  "y23-8": {
+    "image": "/exam-originals/historical-y23-8.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          584.519287109375,
+          535.0,
+          780.0
+        ]
+      },
+      {
+        "page": 2,
+        "rect": [
+          82.0,
+          65.0,
+          535.0,
+          248.235595703125
+        ]
+      }
+    ]
+  },
+  "y23-9": {
+    "image": "/exam-originals/historical-y23-9.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          82.0,
+          249.235595703125,
+          535.0,
+          399.74853515625
+        ]
+      }
+    ]
+  },
+  "y23-10": {
+    "image": "/exam-originals/historical-y23-10.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          82.0,
+          400.74853515625,
+          535.0,
+          581.84228515625
+        ]
+      }
+    ]
+  },
+  "y23-11": {
+    "image": "/exam-originals/historical-y23-11.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          82.0,
+          582.84228515625,
+          535.0,
+          780.0
+        ]
+      },
+      {
+        "page": 3,
+        "rect": [
+          82.0,
+          65.0,
+          535.0,
+          83.803466796875
+        ]
+      }
+    ]
+  },
+  "y23-12": {
+    "image": "/exam-originals/historical-y23-12.png",
+    "regions": [
+      {
+        "page": 3,
+        "rect": [
+          82.0,
+          84.803466796875,
+          535.0,
+          231.7958984375
+        ]
+      }
+    ]
+  },
+  "y23-13": {
+    "image": "/exam-originals/historical-y23-13.png",
+    "regions": [
+      {
+        "page": 3,
+        "rect": [
+          82.0,
+          232.7958984375,
+          535.0,
+          464.083251953125
+        ]
+      }
+    ]
+  },
+  "y23-14": {
+    "image": "/exam-originals/historical-y23-14.png",
+    "regions": [
+      {
+        "page": 3,
+        "rect": [
+          82.0,
+          465.083251953125,
+          535.0,
+          529.857666015625
+        ]
+      }
+    ]
+  },
+  "y23-15": {
+    "image": "/exam-originals/historical-y23-15.png",
+    "regions": [
+      {
+        "page": 3,
+        "rect": [
+          82.0,
+          530.857666015625,
+          535.0,
+          562.744873046875
+        ]
+      }
+    ]
+  },
+  "y23-16": {
+    "image": "/exam-originals/historical-y23-16.png",
+    "regions": [
+      {
+        "page": 3,
+        "rect": [
+          82.0,
+          563.744873046875,
+          535.0,
+          628.519287109375
+        ]
+      }
+    ]
+  },
+  "y24-1": {
+    "image": "/exam-originals/historical-y24-1.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          144.3284454345703,
+          535.0,
+          219.40846252441406
+        ]
+      }
+    ]
+  },
+  "y24-2": {
+    "image": "/exam-originals/historical-y24-2.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          220.40846252441406,
+          535.0,
+          333.5584716796875
+        ]
+      }
+    ]
+  },
+  "y24-3": {
+    "image": "/exam-originals/historical-y24-3.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          334.5584716796875,
+          535.0,
+          409.63848876953125
+        ]
+      }
+    ]
+  },
+  "y24-4": {
+    "image": "/exam-originals/historical-y24-4.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          410.63848876953125,
+          535.0,
+          504.81842041015625
+        ]
+      }
+    ]
+  },
+  "y24-5": {
+    "image": "/exam-originals/historical-y24-5.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          505.81842041015625,
+          535.0,
+          561.8184204101562
+        ]
+      }
+    ]
+  },
+  "y24-6": {
+    "image": "/exam-originals/historical-y24-6.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          562.8184204101562,
+          535.0,
+          637.928466796875
+        ]
+      }
+    ]
+  },
+  "y24-7": {
+    "image": "/exam-originals/historical-y24-7.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          638.928466796875,
+          535.0,
+          714.1284790039062
+        ]
+      }
+    ]
+  },
+  "y24-8": {
+    "image": "/exam-originals/historical-y24-8.png",
+    "regions": [
+      {
+        "page": 1,
+        "rect": [
+          82.0,
+          715.1284790039062,
+          535.0,
+          780.0
+        ]
+      },
+      {
+        "page": 2,
+        "rect": [
+          82.0,
+          65.0,
+          535.0,
+          82.24848937988281
+        ]
+      }
+    ]
+  },
+  "y24-9": {
+    "image": "/exam-originals/historical-y24-9.png",
+    "regions": [
+      {
+        "page": 2,
+        "rect": [
+          82.0,
+          83.24848937988281,
+          535.0,
+          775.0
+        ]
+      }
+    ]
+  }
+}

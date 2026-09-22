@@ -1,0 +1,12 @@
+.git
+node_modules
+.wrangler
+.sites-runtime
+dist
+dist-ec2
+data
+backups
+.env*
+**/.env*
+*.tar.gz
+*.sqlite*

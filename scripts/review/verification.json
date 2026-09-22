@@ -1,0 +1,34 @@
+{
+  "newVariants": 19,
+  "uniqueReasoningFocus": 19,
+  "numericOnlyTemplateDuplicates": 0,
+  "checked": "정수·보수 범위, 가중 적중률, 모든 관련 진리표 입력, 경계 문자, 직접 기계어 실행, 선택 교재 수치와 논리식",
+  "selfModifyingTrace": [
+    {
+      "at": 0,
+      "op": 209,
+      "addr": 48,
+      "A": 34
+    },
+    {
+      "at": 3,
+      "op": 241,
+      "addr": 12,
+      "A": 34
+    },
+    {
+      "at": 6,
+      "op": 4,
+      "addr": 10,
+      "A": 34
+    },
+    {
+      "at": 10,
+      "op": 193,
+      "addr": 34,
+      "A": 9
+    }
+  ],
+  "primarySemanticsReference": "https://github.com/StanWarford/pep8/blob/master/sim.cpp",
+  "note": "문제 간 사고 차이와 서술형 답안의 적절성은 문항별 편집 검수이며, 자동 검사가 의미적 완전성을 증명하지는 않음."
+}

@@ -1,0 +1,1769 @@
+{
+  "rubric": {
+    "초급": "정의·기본 특성 회상, 한 가지 규칙의 직접 적용",
+    "중급": "표준 풀이의 여러 단계, 실행 추적, 비교·오류 수정",
+    "상급": "회로·알고리즘 설계, 새로운 규칙 유도, 여러 제약의 결합"
+  },
+  "rows": [
+    {
+      "uid": "3c268547b7b5eeab",
+      "id": 1,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "주판의 자릿값을 읽고 8비트로 변환하는 두 단계"
+    },
+    {
+      "uid": "d0d6e1dc8283f581",
+      "id": 2,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "ENIAC과 ABC의 용도 차이 회상"
+    },
+    {
+      "uid": "c5137e58ff1484c6",
+      "id": 3,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "하드웨어 네 구성 요소 회상"
+    },
+    {
+      "uid": "e8f320ef61558baa",
+      "id": 4,
+      "week": 1,
+      "before": "중급",
+      "after": "중급",
+      "reason": "네 용어를 연결해 부팅 순서 구성"
+    },
+    {
+      "uid": "9dad0c12b551d666",
+      "id": 5,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "주판 판독 후 8비트 변환"
+    },
+    {
+      "uid": "af581f84cb30215a",
+      "id": 6,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "기계식과 전자식의 기본 차이"
+    },
+    {
+      "uid": "1d59ab203d9b8873",
+      "id": 7,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "내장형 프로그램 제안자 회상"
+    },
+    {
+      "uid": "9c86a457b8cc2b11",
+      "id": 8,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "소자 발전 순서 빈칸"
+    },
+    {
+      "uid": "e3a1d7293b4cc07e",
+      "id": 9,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "하드웨어 구성 요소 회상"
+    },
+    {
+      "uid": "89da869f5b6bb976",
+      "id": 10,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "ABC 명칭 회상"
+    },
+    {
+      "uid": "59e65891eabdf8fb",
+      "id": 11,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "특수 목적과 범용 비교"
+    },
+    {
+      "uid": "b07b17af0b991f14",
+      "id": 12,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "폰 노이만 이름 회상"
+    },
+    {
+      "uid": "e8759e4657762ab7",
+      "id": 13,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "세대별 대표 소자 회상"
+    },
+    {
+      "uid": "38cb1ed01c16c075",
+      "id": 14,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "하드웨어 구성 요소 회상"
+    },
+    {
+      "uid": "176528ec411b0e5e",
+      "id": 15,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "튜링 테스트와 CAPTCHA의 판별 주체·목적 비교"
+    },
+    {
+      "uid": "0628dedff2056b9f",
+      "id": 16,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "MiB 정의를 적용한 단위 환산"
+    },
+    {
+      "uid": "96a76b1a52eb6e3d",
+      "id": 17,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "주판 판독 후 10·2·16진 표현 연결"
+    },
+    {
+      "uid": "e8472c456b2012ea",
+      "id": 18,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "소자 발전 순서와 대표 특징 회상"
+    },
+    {
+      "uid": "025f2b731d0f195c",
+      "id": 19,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "주판 판독 후 8비트 표현"
+    },
+    {
+      "uid": "7dcd0912a955dbfb",
+      "id": 20,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "소자 변천의 두 빈칸 회상"
+    },
+    {
+      "uid": "0efe1bdad248ed1b",
+      "id": 21,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "기계식과 전자식 차이 회상"
+    },
+    {
+      "uid": "955f9365c687139b",
+      "id": 22,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "소형화를 가능하게 한 소자 회상"
+    },
+    {
+      "uid": "1aa01f1b7f6b8603",
+      "id": 23,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "진공관과 VLSI 명칭 회상"
+    },
+    {
+      "uid": "26def10adab37eb7",
+      "id": 24,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "CAPTCHA 약자 회상"
+    },
+    {
+      "uid": "dd032be85164aa24",
+      "id": 25,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "FLOPS 정의 회상"
+    },
+    {
+      "uid": "eccd05f16f912e96",
+      "id": 26,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "시스템·응용 소프트웨어 예시 분류"
+    },
+    {
+      "uid": "014857edd8a3656b",
+      "id": 27,
+      "week": 1,
+      "before": "중급",
+      "after": "중급",
+      "reason": "나머지 삽입 위치를 코드 흐름에 적용"
+    },
+    {
+      "uid": "594d925b7a201a5f",
+      "id": 28,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "나머지 생성 순서와 자릿값의 관계 설명"
+    },
+    {
+      "uid": "d32ad4a0b346688b",
+      "id": 29,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "펌웨어 실행과 OS 적재 순서로 주장 반박"
+    },
+    {
+      "uid": "30114a7cc2516496",
+      "id": 30,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "하버드 구조 정의 회상"
+    },
+    {
+      "uid": "d8fc25287f222af4",
+      "id": 31,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "짧은 양의 2진수 자릿값 합산"
+    },
+    {
+      "uid": "11958299b37a0f0b",
+      "id": 32,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "두 자리 16진수 자릿값 합산"
+    },
+    {
+      "uid": "a08ae1da1bc8fb65",
+      "id": 33,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "8비트당 1바이트 환산"
+    },
+    {
+      "uid": "b5dfc6c825d6d353",
+      "id": 34,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "양의 정수를 변환하고 앞에 0 채우기"
+    },
+    {
+      "uid": "1d590aad8b9c1a51",
+      "id": 35,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "KiB 단위 직접 환산"
+    },
+    {
+      "uid": "15e0cacf2efdf348",
+      "id": 36,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "UNIVAC 명칭 회상"
+    },
+    {
+      "uid": "0d5ba505acd3da3c",
+      "id": 37,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "한 번의 기본 2진 덧셈"
+    },
+    {
+      "uid": "dfa5634487acdc0c",
+      "id": 38,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "4비트씩 묶어 16진수 변환"
+    },
+    {
+      "uid": "cfc659c8647f6ee8",
+      "id": 39,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "주소선 수에 2의 거듭제곱 적용"
+    },
+    {
+      "uid": "abf78ba4efee3dc2",
+      "id": 40,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "작은 양의 정수 진법 변환"
+    },
+    {
+      "uid": "100cdbb774a63461",
+      "id": 41,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "물리 전압과 논리값 구분"
+    },
+    {
+      "uid": "f21c5a601ab5452f",
+      "id": 42,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "임베디드 컴퓨터 사례 식별"
+    },
+    {
+      "uid": "39917a433b460270",
+      "id": 43,
+      "week": 1,
+      "before": "초급",
+      "after": "초급",
+      "reason": "입출력 장치와 소프트웨어 구분"
+    },
+    {
+      "uid": "7b13f3ca73424a66",
+      "id": 44,
+      "week": 1,
+      "before": "초급",
+      "after": "중급",
+      "reason": "저장 위치와 적재 방향 오류를 함께 수정"
+    },
+    {
+      "uid": "ed9909c9d8e8534e",
+      "id": 45,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "세 가지 부호 표현의 범위 비교"
+    },
+    {
+      "uid": "bf7df50a7948152f",
+      "id": 46,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "부동소수점 표현 오차로 비교 결과 설명"
+    },
+    {
+      "uid": "ed60a25dc6314475",
+      "id": 47,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "지수·가수·부호를 분리해 값 계산"
+    },
+    {
+      "uid": "83c7865aa5363c46",
+      "id": 48,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "지수·가수·부호를 분리해 값 계산"
+    },
+    {
+      "uid": "fb05bbfdfabb6005",
+      "id": 49,
+      "week": 2,
+      "before": "초급",
+      "after": "중급",
+      "reason": "양수와 음수의 고정 폭 보수 표현 비교"
+    },
+    {
+      "uid": "becb30197cb24829",
+      "id": 50,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "같은 비트열을 네 표현 규칙으로 해석"
+    },
+    {
+      "uid": "d187ac1967df841e",
+      "id": 51,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "2의 보수의 대표 장점 회상"
+    },
+    {
+      "uid": "75b9804e7f798b19",
+      "id": 52,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "부호 없는 수의 적용 상황 선택"
+    },
+    {
+      "uid": "d185aaaef658a9c6",
+      "id": 53,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "signed char 범위와 덧셈 결과 추적"
+    },
+    {
+      "uid": "8a2c404adf5709f8",
+      "id": 54,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "네 수 표현 규칙 및 bias 적용"
+    },
+    {
+      "uid": "e0d7491cab68b2d3",
+      "id": 55,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "signed char 경계에서 덧셈 결과 해석"
+    },
+    {
+      "uid": "68bc127a7ce01ab9",
+      "id": 56,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "최대 지수와 최대 가수를 결합해 계산"
+    },
+    {
+      "uid": "ae1a4200f99d665a",
+      "id": 57,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "십진 보수 규칙을 음수 해석에 적용"
+    },
+    {
+      "uid": "b3db44cbed32d1d8",
+      "id": 58,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "최솟값을 부호 반전할 때의 경계 현상"
+    },
+    {
+      "uid": "1048b881c831d44a",
+      "id": 59,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "부호 확장과 0 확장 결과 비교"
+    },
+    {
+      "uid": "7ecbd069cda2eca0",
+      "id": 60,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "carry와 signed overflow를 구분"
+    },
+    {
+      "uid": "519a8aa173327f82",
+      "id": 61,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "표현 간격과 반올림으로 덧셈 결과 설명"
+    },
+    {
+      "uid": "963fd6634c1c6a9d",
+      "id": 62,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "예약 지수 조건을 반영한 최솟값·최댓값"
+    },
+    {
+      "uid": "859fd5da7b0ec145",
+      "id": 63,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "2진 소수의 유한·순환 표현 비교"
+    },
+    {
+      "uid": "47b42e8adf0f3fbc",
+      "id": 64,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "문자 코드 덧셈과 수치 덧셈 구분"
+    },
+    {
+      "uid": "28810f97390dc250",
+      "id": 65,
+      "week": 2,
+      "before": "초급",
+      "after": "중급",
+      "reason": "음의 0 유무와 표현 범위 비대칭의 인과 설명"
+    },
+    {
+      "uid": "6be2e94105f8ddd4",
+      "id": 66,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "지수와 가수 비트 배분의 상충 관계"
+    },
+    {
+      "uid": "903335da902bbbfa",
+      "id": 67,
+      "week": 2,
+      "before": "상급",
+      "after": "상급",
+      "reason": "일반 보수 표현을 더 긴 자릿수로 확장"
+    },
+    {
+      "uid": "27018d8f904f750c",
+      "id": 68,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "주어진 8비트 보수의 값 직접 변환"
+    },
+    {
+      "uid": "88bc949dcf2f910f",
+      "id": 69,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "지수 필드의 역할 회상"
+    },
+    {
+      "uid": "698bbba00bbcfeda",
+      "id": 70,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "주어진 비트 수에 최솟값 공식 적용"
+    },
+    {
+      "uid": "2d009cc2f28d87ee",
+      "id": 71,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "가수 필드의 역할 회상"
+    },
+    {
+      "uid": "3b02d22e700a64b2",
+      "id": 72,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "숨은 1의 정의 회상"
+    },
+    {
+      "uid": "38f92d2f9f5a4c33",
+      "id": 73,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "부호 비트의 역할 회상"
+    },
+    {
+      "uid": "fd4c471d18df4e86",
+      "id": 74,
+      "week": 2,
+      "before": "초급",
+      "after": "초급",
+      "reason": "작은 음수 하나를 보수로 직접 변환"
+    },
+    {
+      "uid": "11c7c04fad53f79a",
+      "id": 75,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "필요 범위를 만족하는 표현 규칙 판단"
+    },
+    {
+      "uid": "7ea4ceea0173279a",
+      "id": 76,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "오차 없는 금액 표현 방식을 상황에 적용"
+    },
+    {
+      "uid": "a4e74c0a17d0cb84",
+      "id": 77,
+      "week": 2,
+      "before": "중급",
+      "after": "중급",
+      "reason": "실제 값과 저장 지수로 bias 역산"
+    },
+    {
+      "uid": "8a7a44854923df8f",
+      "id": 78,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "XOR 기호와 기본 진리표 회상"
+    },
+    {
+      "uid": "3939656e29974f3f",
+      "id": 79,
+      "week": 3,
+      "before": "초급",
+      "after": "중급",
+      "reason": "여러 논리 연산의 순서를 따라 계산"
+    },
+    {
+      "uid": "2734f610e57af055",
+      "id": 80,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "리플 캐리 지연의 기본 원인 회상"
+    },
+    {
+      "uid": "3c825795e56f91ef",
+      "id": 81,
+      "week": 3,
+      "before": "초급",
+      "after": "중급",
+      "reason": "제어값을 회로 경로에 대입해 연산 판별"
+    },
+    {
+      "uid": "97896671a5ed94d1",
+      "id": 82,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "진리표에서 K-map을 거쳐 식 도출"
+    },
+    {
+      "uid": "5fc3295e230b3d31",
+      "id": 83,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "NOR SR의 입력과 금지 상태 해석"
+    },
+    {
+      "uid": "659f0d53b4cde8f5",
+      "id": 84,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "에지 트리거와 레벨 트리거 정의 비교"
+    },
+    {
+      "uid": "0f2f0bc6f9fe933e",
+      "id": 85,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "비동기 카운터의 동작 원리 설명"
+    },
+    {
+      "uid": "721ebe3bbdc874a7",
+      "id": 86,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "XOR 진리표 회상"
+    },
+    {
+      "uid": "f0c576d6a427ae18",
+      "id": 87,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "드모르간 법칙을 복합식에 적용"
+    },
+    {
+      "uid": "fc8d4c05e7d11c72",
+      "id": 88,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "여러 항을 K-map으로 묶어 단순화"
+    },
+    {
+      "uid": "d5d73ef23388250a",
+      "id": 89,
+      "week": 3,
+      "before": "상급",
+      "after": "상급",
+      "reason": "소수 판별 조건에서 조합 회로 설계"
+    },
+    {
+      "uid": "6f516a82aaaea315",
+      "id": 90,
+      "week": 3,
+      "before": "상급",
+      "after": "상급",
+      "reason": "가산기·XOR·carry 입력을 결합한 가감산기 설계"
+    },
+    {
+      "uid": "ef26253484019c43",
+      "id": 91,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "리플 캐리의 지연 원인 회상"
+    },
+    {
+      "uid": "872c9d67dffd23c6",
+      "id": 92,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "SR 회로의 피드백과 reset 상태 추적"
+    },
+    {
+      "uid": "7d1e70cdfba9bcd1",
+      "id": 93,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "동기·비동기 카운터의 구동 방식 비교"
+    },
+    {
+      "uid": "88955286796fc5e9",
+      "id": 94,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "JK 기본 특성표 회상"
+    },
+    {
+      "uid": "73f0989a84aba6bb",
+      "id": 95,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "주어진 회로를 논리식으로 읽고 동치 판별"
+    },
+    {
+      "uid": "41728b55209525cf",
+      "id": 96,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "클럭 펄스 정의 회상"
+    },
+    {
+      "uid": "b30699245a3d091c",
+      "id": 97,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "XOR 기호와 진리표 재현"
+    },
+    {
+      "uid": "125ea7a939caf356",
+      "id": 98,
+      "week": 3,
+      "before": "중급",
+      "after": "상급",
+      "reason": "가감산기 제어 신호와 회로 연결 설계"
+    },
+    {
+      "uid": "f0d1be7da51cc808",
+      "id": 99,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "플립플롭 네 종류 회상"
+    },
+    {
+      "uid": "7ad364b059943ee9",
+      "id": 100,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "회로의 모든 입력 조합에 대한 출력 추적"
+    },
+    {
+      "uid": "879ba6da1b86d0a2",
+      "id": 101,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "목표 XOR 동작과 불완전한 회로를 비교"
+    },
+    {
+      "uid": "cea2cb93f5d3dd8a",
+      "id": 102,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "보수 뺄셈과 carry 입력 누락을 연결"
+    },
+    {
+      "uid": "a3d54b619e0defd0",
+      "id": 103,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "입력 경우를 나눠 두 carry 식의 동치 확인"
+    },
+    {
+      "uid": "a7d8ba84c1a2e4b2",
+      "id": 104,
+      "week": 3,
+      "before": "중급",
+      "after": "상급",
+      "reason": "목표 T 상태식에서 D 피드백 회로 유도"
+    },
+    {
+      "uid": "1f844f47978ef20f",
+      "id": 105,
+      "week": 3,
+      "before": "중급",
+      "after": "상급",
+      "reason": "목표 D 상태식을 만족하는 JK 입력 회로 유도"
+    },
+    {
+      "uid": "bfece7937988df45",
+      "id": 106,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "SR 금지 상태 해제 시 피드백 경쟁 분석"
+    },
+    {
+      "uid": "6d21b49248cf418e",
+      "id": 107,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "OR의 기본 동작 회상"
+    },
+    {
+      "uid": "c03ce150f5628ba5",
+      "id": 108,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "D 플립플롭의 기본 동작 회상"
+    },
+    {
+      "uid": "2e371390a32a302a",
+      "id": 109,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "NOT의 기본 동작 회상"
+    },
+    {
+      "uid": "eee9e6fddfbe644b",
+      "id": 110,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "AND의 기본 동작 회상"
+    },
+    {
+      "uid": "c1763eb29361794f",
+      "id": 111,
+      "week": 3,
+      "before": "초급",
+      "after": "초급",
+      "reason": "반가산기의 알려진 4행 진리표 재현"
+    },
+    {
+      "uid": "4527945edb3aff35",
+      "id": 112,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "잘못된 논리식 변환의 반례 구성"
+    },
+    {
+      "uid": "797a7ddd4ae9ad31",
+      "id": 113,
+      "week": 3,
+      "before": "중급",
+      "after": "중급",
+      "reason": "게이트 식과 모든 입력으로 reset 우선 검증"
+    },
+    {
+      "uid": "a52f44121a141010",
+      "id": 114,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "폰 노이만 병목을 분석하고 대안 제시"
+    },
+    {
+      "uid": "0cd9f644c49ec83b",
+      "id": 115,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "4진 보수의 해석 규칙을 유도해 적용"
+    },
+    {
+      "uid": "06fa17c7556607ac",
+      "id": 116,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "부호·크기 표현의 overflow 조건 도출"
+    },
+    {
+      "uid": "521abff378356e89",
+      "id": 117,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "리플 전파 지연이 출력에 미치는 영향"
+    },
+    {
+      "uid": "0707174e3b2d5106",
+      "id": 118,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "4진 보수의 해석 규칙을 유도해 적용"
+    },
+    {
+      "uid": "c80df3ca9ad4a5b6",
+      "id": 119,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "파형의 에지와 토글을 역추론해 연결 설계"
+    },
+    {
+      "uid": "d778327b4f9dd076",
+      "id": 120,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "폰 노이만 한계와 대안 구조를 연결"
+    },
+    {
+      "uid": "a05f73930f258b4a",
+      "id": 121,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "상태 플래그 식 도출과 게이트 수 제약 결합"
+    },
+    {
+      "uid": "72046f5309bab60d",
+      "id": 122,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "소수를 정규화해 비트 필드로 인코딩"
+    },
+    {
+      "uid": "c289c55c215cce06",
+      "id": 123,
+      "week": 4,
+      "before": "초급",
+      "after": "중급",
+      "reason": "동일 입력·상이한 과거의 반례로 기억 불가 설명"
+    },
+    {
+      "uid": "6add0f5047797dd8",
+      "id": 124,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "흡수·분배 법칙으로 복합식 단순화"
+    },
+    {
+      "uid": "8e709f86e24e2e52",
+      "id": 125,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "고정 폭 뺄셈과 carry·overflow 동시 추적"
+    },
+    {
+      "uid": "688be7bdeddcc963",
+      "id": 126,
+      "week": 4,
+      "before": "초급",
+      "after": "중급",
+      "reason": "같은 비트열의 signed·unsigned 해석 비교"
+    },
+    {
+      "uid": "8b21fd622c1643df",
+      "id": 127,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "부동소수점 값을 확정하는 조건 판단"
+    },
+    {
+      "uid": "c4bed5a8a2cbc6d6",
+      "id": 128,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "잘못된 0 검출 회로의 반례 찾기"
+    },
+    {
+      "uid": "bb630d95f9fa4457",
+      "id": 129,
+      "week": 4,
+      "before": "중급",
+      "after": "중급",
+      "reason": "K-map 경계 인접성을 적용해 묶기"
+    },
+    {
+      "uid": "f1b88a7f0089b833",
+      "id": 130,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "부호·크기 overflow의 잘못된 식을 반례로 반박"
+    },
+    {
+      "uid": "2a9666f06e0755ea",
+      "id": 131,
+      "week": 4,
+      "before": "중급",
+      "after": "상급",
+      "reason": "비동기 전파의 중간 상태와 0 검출 glitch 결합"
+    },
+    {
+      "uid": "1c97125a4bf49351",
+      "id": 132,
+      "week": 4,
+      "before": "상급",
+      "after": "상급",
+      "reason": "4진 보수 일반식과 표현 범위 도출"
+    },
+    {
+      "uid": "35fc79465d94f299",
+      "id": 133,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "MAR·MBR 역할 회상"
+    },
+    {
+      "uid": "5d156806ed3bed2b",
+      "id": 134,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "파이프라인 겹침과 성능 효과 연결"
+    },
+    {
+      "uid": "50558a6bc2fe3ab8",
+      "id": 135,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "명령 사이클에서 PC·IR 변화 추적"
+    },
+    {
+      "uid": "3f3046a113821c16",
+      "id": 136,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "연관 캐시의 태그 비교 동작 설명"
+    },
+    {
+      "uid": "3fe679d02ce0927f",
+      "id": 137,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "캐시 적중률 정의와 기본 의미"
+    },
+    {
+      "uid": "8df94d7b69be44bb",
+      "id": 138,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "메모리 계층의 기본 순서와 특성"
+    },
+    {
+      "uid": "6bf46a4c80aac25d",
+      "id": 139,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "CPU 기본 구성 요소 회상"
+    },
+    {
+      "uid": "9fa937e75ce364bb",
+      "id": 140,
+      "week": 5,
+      "before": "초급",
+      "after": "중급",
+      "reason": "시간·공간 지역성으로 캐시 효과 설명"
+    },
+    {
+      "uid": "bc7735705c7a4d71",
+      "id": 141,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "CPU 구성 요소별 기능 회상"
+    },
+    {
+      "uid": "06940f6787ac4ec1",
+      "id": 142,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "상황에 맞는 DMA·인터럽트 비교"
+    },
+    {
+      "uid": "43632c2635c11e8c",
+      "id": 143,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "메모리 접근 방식의 차이와 사례 연결"
+    },
+    {
+      "uid": "73315eda6a38a393",
+      "id": 144,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "배열 접근 순서와 공간 지역성 연결"
+    },
+    {
+      "uid": "12cd698b9eafb72f",
+      "id": 145,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "블록 접근 순서에 따른 캐시 hit 추적"
+    },
+    {
+      "uid": "db07579642082391",
+      "id": 146,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "인출 단계와 분기 단계의 PC 변화 비교"
+    },
+    {
+      "uid": "01be55a5daf2e2d4",
+      "id": 147,
+      "week": 5,
+      "before": "초급",
+      "after": "중급",
+      "reason": "휘발성과 refresh 필요 여부의 혼동 교정"
+    },
+    {
+      "uid": "58b663141fb813eb",
+      "id": 148,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "파이프라인 지연시간과 처리량 구분"
+    },
+    {
+      "uid": "fd4e4c98e18017ea",
+      "id": 149,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "주소 폭과 데이터 폭이 제한하는 값 구분"
+    },
+    {
+      "uid": "1bfa2f35b87d6a2d",
+      "id": 150,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "한 번만 무작위 접근할 때 지역성 판단"
+    },
+    {
+      "uid": "b5e9ac8f07f0b8fe",
+      "id": 151,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "IR 역할 회상"
+    },
+    {
+      "uid": "a78fa8d4d7e8bd75",
+      "id": 152,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "RAM 기본 특성 회상"
+    },
+    {
+      "uid": "6f45814e309720eb",
+      "id": 153,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "MBR 역할 회상"
+    },
+    {
+      "uid": "e7d684a7352b1cae",
+      "id": 154,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "ACC 역할 회상"
+    },
+    {
+      "uid": "24032863bfb89fb5",
+      "id": 155,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "PC 역할 회상"
+    },
+    {
+      "uid": "80aaabd3dfcc6819",
+      "id": 156,
+      "week": 5,
+      "before": "초급",
+      "after": "초급",
+      "reason": "주어진 주소·데이터를 MAR·MBR에 대응"
+    },
+    {
+      "uid": "cf435f8fb1bf5be7",
+      "id": 157,
+      "week": 5,
+      "before": "중급",
+      "after": "중급",
+      "reason": "파이프라인 단계별 작업 시간 추적"
+    },
+    {
+      "uid": "6ee76c4aaf4e60a4",
+      "id": 158,
+      "week": 5,
+      "before": "초급",
+      "after": "중급",
+      "reason": "접근 횟수를 가중치로 반영해 적중률 판단"
+    },
+    {
+      "uid": "7130e5f96c4a19d4",
+      "id": 159,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "C 문자 입출력을 명령과 대응"
+    },
+    {
+      "uid": "1b66381abea4e615",
+      "id": 160,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "메모리 바이트를 명령으로 해독해 실행"
+    },
+    {
+      "uid": "4948ca6acd4a1855",
+      "id": 161,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "RISC 구조 특징과 효과 연결"
+    },
+    {
+      "uid": "5b17cc580841c980",
+      "id": 162,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "바이트 적재 후 남는 상위 바이트 오류 수정"
+    },
+    {
+      "uid": "7f3ab9de15a8f4ba",
+      "id": 163,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "워드·바이트 적재 결과 비교"
+    },
+    {
+      "uid": "3c0cc06b8c259528",
+      "id": 164,
+      "week": 6,
+      "before": "초급",
+      "after": "중급",
+      "reason": "즉시·직접 주소지정의 값 추적"
+    },
+    {
+      "uid": "c3886fd5b2123281",
+      "id": 165,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "워드 저장으로 이웃 바이트가 바뀌는 원인"
+    },
+    {
+      "uid": "8f6445cf86c61184",
+      "id": 166,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "코드 삽입 후 주소와 참조 재계산"
+    },
+    {
+      "uid": "5c190616b34aca1f",
+      "id": 167,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "문자열 종료 바이트 누락의 결과 추적"
+    },
+    {
+      "uid": "ee91b5c077d09929",
+      "id": 168,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "상수 정의와 메모리 할당의 주소지정 비교"
+    },
+    {
+      "uid": "e9225da8e9d007a8",
+      "id": 169,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "같은 메모리의 숫자·문자 출력 비교"
+    },
+    {
+      "uid": "ba6a1724c0b5d070",
+      "id": 170,
+      "week": 6,
+      "before": "초급",
+      "after": "중급",
+      "reason": "누산기 계산과 메모리 저장의 차이로 누락 수정"
+    },
+    {
+      "uid": "7ab1f5aac0de5eb4",
+      "id": 171,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "명령 길이와 저장 결과의 바이트 배치 추적"
+    },
+    {
+      "uid": "24790b6fe65537aa",
+      "id": 172,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "대문자 변환의 범위 조건과 경계 적용"
+    },
+    {
+      "uid": "c2baca4edd6b40bf",
+      "id": 173,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "STA 의미 회상"
+    },
+    {
+      "uid": "c2c05be4bfd14d5c",
+      "id": 174,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "ADDA 의미 회상"
+    },
+    {
+      "uid": "0e70c9c46cfc1b0e",
+      "id": 175,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "SUBA 의미 회상"
+    },
+    {
+      "uid": "26b0aff828f5d0fe",
+      "id": 176,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "DECI 의미 회상"
+    },
+    {
+      "uid": "b6b7e404a07c2e5f",
+      "id": 177,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "DECO 의미 회상"
+    },
+    {
+      "uid": "3b17701e23567db5",
+      "id": 178,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "CHARI 의미 회상"
+    },
+    {
+      "uid": "21580513e876de15",
+      "id": 179,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "STRO 의미 회상"
+    },
+    {
+      "uid": "645f8a1ea9683508",
+      "id": 180,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "LDA 의미 회상"
+    },
+    {
+      "uid": "55f64b7d0c8f8289",
+      "id": 181,
+      "week": 6,
+      "before": "초급",
+      "after": "초급",
+      "reason": "어셈블 지시어와 실행 종료 명령 구분"
+    },
+    {
+      "uid": "1faa89a7e92a1c17",
+      "id": 182,
+      "week": 6,
+      "before": "초급",
+      "after": "중급",
+      "reason": "데이터 선언별 크기를 누적해 주소 계산"
+    },
+    {
+      "uid": "f39b6961f9cf9ca2",
+      "id": 183,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "숫자 문자열과 이진 정수의 저장 차이"
+    },
+    {
+      "uid": "fcd16743a0ebd774",
+      "id": 184,
+      "week": 6,
+      "before": "중급",
+      "after": "중급",
+      "reason": "최종 값을 만드는 덧셈 피연산자 역산"
+    },
+    {
+      "uid": "46715a20775c04fb",
+      "id": 185,
+      "week": 6,
+      "before": "초급",
+      "after": "중급",
+      "reason": "명령 수 외 CPI·클럭 요인으로 성능 주장 검토"
+    },
+    {
+      "uid": "99d018faf5757ebd",
+      "id": 186,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "입력·덧셈·출력의 표준 명령 대응"
+    },
+    {
+      "uid": "e88317785342cee3",
+      "id": 187,
+      "week": 7,
+      "before": "상급",
+      "after": "상급",
+      "reason": "센티널 반복의 제어·데이터 흐름을 코드로 구성"
+    },
+    {
+      "uid": "bd3bb1825ed1ef2d",
+      "id": 188,
+      "week": 7,
+      "before": "상급",
+      "after": "상급",
+      "reason": "복합 문자 범위 조건을 분기 코드로 구성"
+    },
+    {
+      "uid": "429601b8bf370b92",
+      "id": 189,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "종료 분기의 조건 반전 오류 수정"
+    },
+    {
+      "uid": "5b142f63c1bfbd19",
+      "id": 190,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "if 분기의 else 낙하 실행 오류 수정"
+    },
+    {
+      "uid": "34b731af8588d513",
+      "id": 191,
+      "week": 7,
+      "before": "중급",
+      "after": "상급",
+      "reason": "음수 데이터와 빈 입력을 모두 처리하는 최댓값 알고리즘"
+    },
+    {
+      "uid": "95f0c737fc1268e7",
+      "id": 192,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "반복 덧셈의 0회 경계 처리"
+    },
+    {
+      "uid": "c9cecc7da22114f1",
+      "id": 193,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "최솟값 절댓값과 누적 overflow 경계 분석"
+    },
+    {
+      "uid": "d1c0b70737f567a3",
+      "id": 194,
+      "week": 7,
+      "before": "초급",
+      "after": "중급",
+      "reason": "조건 검사 위치에 따른 반복 실행 차이 추적"
+    },
+    {
+      "uid": "fb859a7e55a8e057",
+      "id": 195,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "범위 밖 조건의 AND·OR 논리 오류 수정"
+    },
+    {
+      "uid": "682c3663e0573f7b",
+      "id": 196,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "중첩 반복에서 내부 카운터 초기화 추적"
+    },
+    {
+      "uid": "2a1c3070ef90eb98",
+      "id": 197,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "CALL·BR의 스택 효과와 RET 연계"
+    },
+    {
+      "uid": "6d95adb41ed9699a",
+      "id": 198,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "BRNE의 Z 조건 회상"
+    },
+    {
+      "uid": "3bf5dbee113ca2e2",
+      "id": 199,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "BRLT의 조건 회상"
+    },
+    {
+      "uid": "844b5765484ab44c",
+      "id": 200,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "BRGT의 조건 회상"
+    },
+    {
+      "uid": "01e29aaac1affd62",
+      "id": 201,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "BR 의미 회상"
+    },
+    {
+      "uid": "bacfa54466e519af",
+      "id": 202,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "CALL 의미 회상"
+    },
+    {
+      "uid": "7bbce521713c8770",
+      "id": 203,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "RET 의미 회상"
+    },
+    {
+      "uid": "156a3d9af0e7cc4e",
+      "id": 204,
+      "week": 7,
+      "before": "초급",
+      "after": "초급",
+      "reason": "BREQ 조건 회상"
+    },
+    {
+      "uid": "49e76615ca42e5c6",
+      "id": 205,
+      "week": 7,
+      "before": "초급",
+      "after": "중급",
+      "reason": "CPA의 레지스터 보존·플래그·분기 함께 추적"
+    },
+    {
+      "uid": "1e02a927f71771e1",
+      "id": 206,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "음수 입력을 허용하는 종료 조건 수정"
+    },
+    {
+      "uid": "cd3a05a4bf6ae850",
+      "id": 207,
+      "week": 7,
+      "before": "중급",
+      "after": "중급",
+      "reason": "범위 비교의 네 경계 문자 검증"
+    },
+    {
+      "uid": "dfa6a41237f20440",
+      "id": 208,
+      "week": 8,
+      "before": "상급",
+      "after": "상급",
+      "reason": "명령 바이트 수정과 이후 실행을 함께 추적"
+    },
+    {
+      "uid": "22c374cb0bdad8b6",
+      "id": 209,
+      "week": 8,
+      "before": "상급",
+      "after": "상급",
+      "reason": "짝홀 판정을 위한 비트 마스크와 새 명령 설계"
+    },
+    {
+      "uid": "f9245484bdc228b5",
+      "id": 210,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "다음 실행에 남는 메모리와 초기화 오류"
+    },
+    {
+      "uid": "2d0bd1c5023ce497",
+      "id": 211,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "호출 전후 레지스터 보존과 반환값 분리"
+    },
+    {
+      "uid": "7329abc8a633fcfe",
+      "id": 212,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "부호 있는 덧셈 경계와 V 플래그 해석"
+    },
+    {
+      "uid": "92953c733d063928",
+      "id": 213,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "증가 폭으로 종료값에 도달 가능한지 판단"
+    },
+    {
+      "uid": "1576f06842de2ccc",
+      "id": 214,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "0 종료 문자를 검사하는 표준 문자열 반복 구성"
+    },
+    {
+      "uid": "dabc901db03b743f",
+      "id": 215,
+      "week": 8,
+      "before": "중급",
+      "after": "초급",
+      "reason": "주어진 5회 감소 반복의 실행 횟수 확인"
+    },
+    {
+      "uid": "d888a6f689ae1b4f",
+      "id": 216,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "두 기계어의 해독과 바이트 복사 결과"
+    },
+    {
+      "uid": "563a92e61f55ff8d",
+      "id": 217,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "메모리 피연산자와 비트 마스크 연산 추적"
+    },
+    {
+      "uid": "1187d0c79714f2ea",
+      "id": 218,
+      "week": 8,
+      "before": "초급",
+      "after": "초급",
+      "reason": "주어진 3회 반복의 본문 실행 횟수"
+    },
+    {
+      "uid": "604b1d2e1592fd53",
+      "id": 219,
+      "week": 8,
+      "before": "중급",
+      "after": "중급",
+      "reason": "분기로 건너뛴 코드와 실제 실행 경로 구분"
+    },
+    {
+      "uid": "700261075a8cd504",
+      "id": 220,
+      "week": 8,
+      "before": "상급",
+      "after": "상급",
+      "reason": "명령 피연산자 수정과 다음 실행을 결합해 추적"
+    }
+  ]
+}

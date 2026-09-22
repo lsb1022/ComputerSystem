@@ -1,0 +1,30 @@
+{
+  "passed": 25,
+  "checks": [
+    "anonymous /api/session",
+    "anonymous /api/admin",
+    "anonymous /api/posts",
+    "anonymous /api/assets?name=question-bank.js",
+    "course requires login",
+    "old static bank unavailable",
+    "admin login",
+    "httpOnly cookie",
+    "student login",
+    "second student login",
+    "student cannot read admin",
+    "cross origin blocked",
+    "out of order rejected",
+    "empty assignment rejected",
+    "valid progress accepted",
+    "persisted answer",
+    "student records isolated",
+    "roster exactly 21",
+    "admin sees exact progress",
+    "authenticated course",
+    "authenticated material",
+    "no enrollment endpoint",
+    "test answers restored",
+    "logout",
+    "revoked session rejected"
+  ]
+}

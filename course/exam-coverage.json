@@ -1,0 +1,1075 @@
+{
+  "historicalScreening": {
+    "checkedDocuments": [
+      "21년도 22년도.pdf",
+      "23년도.pdf",
+      "23년도 답지.pdf",
+      "24년도.pdf",
+      "24년도 암기문항 정리.pdf"
+    ],
+    "scope": "TypeBook 1~7장 본문 및 연습문제",
+    "excluded": [
+      {
+        "source": "2021 기출",
+        "number": 10,
+        "reason": "다중 프로그래밍·멀티태스킹 비교"
+      },
+      {
+        "source": "2021 기출",
+        "number": 16,
+        "reason": "프로세스 상태 전이"
+      },
+      {
+        "source": "2021 기출",
+        "number": 17,
+        "reason": "최악 적합 메모리 할당"
+      },
+      {
+        "source": "2021 기출",
+        "number": 18,
+        "reason": "페이징·프레임 주소 분해"
+      },
+      {
+        "source": "2021 기출",
+        "number": 19,
+        "reason": "SJF 스케줄링"
+      },
+      {
+        "source": "2021 기출",
+        "number": 20,
+        "reason": "페이징 내부 단편화"
+      },
+      {
+        "source": "2022 기출",
+        "number": 10,
+        "reason": "Multics·Unix·Linux·macOS 계보"
+      },
+      {
+        "source": "2022 기출",
+        "number": 11,
+        "reason": "SIMD 배열 병렬 프로그래밍"
+      },
+      {
+        "source": "2023 기출",
+        "number": 17,
+        "reason": "최악 적합 메모리 할당"
+      }
+    ],
+    "retainedReferences": 66,
+    "identicalFile": {
+      "file": "24년도.pdf",
+      "sameAs": "컴퓨터시스템_2025_미경_중간고사.pdf",
+      "sha256": "2b32aabc90def826a14f0b29d5ae3ecb1e091bffb5af92cc982ce99d1c82d849"
+    },
+    "corrections": [
+      "2의 보수에도 부호 판단을 하는 최상위 비트가 있음",
+      "축소 부동소수점의 특수 지수 예약 여부 명시",
+      "C++ char 부호 및 변환 환경 명시",
+      "MB의 이진 단위 관례 명시",
+      "클라우드 자체를 폰 노이만 병목 해결 구조로 제시한 답안 수정"
+    ]
+  },
+  "historicalReferences": [
+    {
+      "key": "y21-1",
+      "question": 1,
+      "document": "2021 기출",
+      "section": "1.1",
+      "id": 10
+    },
+    {
+      "key": "y21-2",
+      "question": 2,
+      "document": "2021 기출",
+      "section": "1.1",
+      "id": 11
+    },
+    {
+      "key": "y21-3",
+      "question": 3,
+      "document": "2021 기출",
+      "section": "1.1·1.4",
+      "id": 12
+    },
+    {
+      "key": "y21-4",
+      "question": 4,
+      "document": "2021 기출",
+      "section": "1.1",
+      "id": 13
+    },
+    {
+      "key": "y21-5",
+      "question": 5,
+      "document": "2021 기출",
+      "section": "1.4",
+      "id": 14
+    },
+    {
+      "key": "y21-6",
+      "question": 6,
+      "document": "2021 기출",
+      "section": "1.1",
+      "id": 15
+    },
+    {
+      "key": "y21-7",
+      "question": 7,
+      "document": "2021 기출",
+      "section": "2.2",
+      "id": 16
+    },
+    {
+      "key": "y21-8",
+      "question": 8,
+      "document": "2021 기출",
+      "section": "6.3",
+      "id": 138
+    },
+    {
+      "key": "y21-9",
+      "question": 9,
+      "document": "2021 기출",
+      "section": "6.2",
+      "id": 139
+    },
+    {
+      "key": "y21-11",
+      "question": 11,
+      "document": "2021 기출",
+      "section": "2.5",
+      "id": 49
+    },
+    {
+      "key": "y21-12",
+      "question": 12,
+      "document": "2021 기출",
+      "section": "2.3·2.4",
+      "id": 17
+    },
+    {
+      "key": "y21-13",
+      "question": 13,
+      "document": "2021 기출",
+      "section": "2.5·2.6",
+      "id": 50
+    },
+    {
+      "key": "y21-14",
+      "question": 14,
+      "document": "2021 기출",
+      "section": "2.5",
+      "id": 51
+    },
+    {
+      "key": "y21-15",
+      "question": 15,
+      "document": "2021 기출",
+      "section": "2.5",
+      "id": 52
+    },
+    {
+      "key": "y22-1",
+      "question": 1,
+      "document": "2022 기출",
+      "section": "1.1",
+      "id": 18
+    },
+    {
+      "key": "y22-2",
+      "question": 2,
+      "document": "2022 기출",
+      "section": "5·6.2",
+      "id": 96
+    },
+    {
+      "key": "y22-3",
+      "question": 3,
+      "document": "2022 기출",
+      "section": "1.1",
+      "id": 11
+    },
+    {
+      "key": "y22-4",
+      "question": 4,
+      "document": "2022 기출",
+      "section": "2.2",
+      "id": 16
+    },
+    {
+      "key": "y22-5",
+      "question": 5,
+      "document": "2022 기출",
+      "section": "2.5",
+      "id": 53
+    },
+    {
+      "key": "y22-6",
+      "question": 6,
+      "document": "2022 기출",
+      "section": "2.5·2.6",
+      "id": 54
+    },
+    {
+      "key": "y22-7",
+      "question": 7,
+      "document": "2022 기출",
+      "section": "3.1",
+      "id": 97
+    },
+    {
+      "key": "y22-8",
+      "question": 8,
+      "document": "2022 기출",
+      "section": "4.3",
+      "id": 98
+    },
+    {
+      "key": "y22-9",
+      "question": 9,
+      "document": "2022 기출",
+      "section": "6.3",
+      "id": 140
+    },
+    {
+      "key": "y23-1",
+      "question": 1,
+      "document": "2023 기출",
+      "section": "2.3·2.4",
+      "id": 19
+    },
+    {
+      "key": "y23-2",
+      "question": 2,
+      "document": "2023 기출",
+      "section": "1.1",
+      "id": 20
+    },
+    {
+      "key": "y23-3",
+      "question": 3,
+      "document": "2023 기출",
+      "section": "1.1",
+      "id": 15
+    },
+    {
+      "key": "y23-4",
+      "question": 4,
+      "document": "2023 기출",
+      "section": "1.1",
+      "id": 11
+    },
+    {
+      "key": "y23-5",
+      "question": 5,
+      "document": "2023 기출",
+      "section": "1.4",
+      "id": 120
+    },
+    {
+      "key": "y23-6",
+      "question": 6,
+      "document": "2023 기출",
+      "section": "5",
+      "id": 99
+    },
+    {
+      "key": "y23-7",
+      "question": 7,
+      "document": "2023 기출",
+      "section": "6.2",
+      "id": 141
+    },
+    {
+      "key": "y23-8",
+      "question": 8,
+      "document": "2023 기출",
+      "section": "2.5",
+      "id": 55
+    },
+    {
+      "key": "y23-9",
+      "question": 9,
+      "document": "2023 기출",
+      "section": "3.1·3.2",
+      "id": 100
+    },
+    {
+      "key": "y23-10",
+      "question": 10,
+      "document": "2023 기출",
+      "section": "3.1·3.2",
+      "id": 101
+    },
+    {
+      "key": "y23-11",
+      "question": 11,
+      "document": "2023 기출",
+      "section": "2.6",
+      "id": 56
+    },
+    {
+      "key": "y23-12",
+      "question": 12,
+      "document": "2023 기출",
+      "section": "2.5",
+      "id": 57
+    },
+    {
+      "key": "y23-13",
+      "question": 13,
+      "document": "2023 기출",
+      "section": "4.3",
+      "id": 121
+    },
+    {
+      "key": "y23-14",
+      "question": 14,
+      "document": "2023 기출",
+      "section": "6.4",
+      "id": 142
+    },
+    {
+      "key": "y23-15",
+      "question": 15,
+      "document": "2023 기출",
+      "section": "7.2",
+      "id": 161
+    },
+    {
+      "key": "y23-16",
+      "question": 16,
+      "document": "2023 기출",
+      "section": "6.3",
+      "id": 143
+    },
+    {
+      "key": "y24-1",
+      "question": 1,
+      "document": "2024 암기문항 정리",
+      "section": "1.1",
+      "id": 21
+    },
+    {
+      "key": "y24-2",
+      "question": 2,
+      "document": "2024 암기문항 정리",
+      "section": "1.1",
+      "id": 22
+    },
+    {
+      "key": "y24-3",
+      "question": 3,
+      "document": "2024 암기문항 정리",
+      "section": "1.4",
+      "id": 12
+    },
+    {
+      "key": "y24-4",
+      "question": 4,
+      "document": "2024 암기문항 정리",
+      "section": "1.1",
+      "id": 23
+    },
+    {
+      "key": "y24-5",
+      "question": 5,
+      "document": "2024 암기문항 정리",
+      "section": "1.1",
+      "id": 24
+    },
+    {
+      "key": "y24-6",
+      "question": 6,
+      "document": "2024 암기문항 정리",
+      "section": "1.2",
+      "id": 25
+    },
+    {
+      "key": "y24-7",
+      "question": 7,
+      "document": "2024 암기문항 정리",
+      "section": "1.4",
+      "id": 26
+    },
+    {
+      "key": "y24-8",
+      "question": 8,
+      "document": "2024 암기문항 정리",
+      "section": "1.4",
+      "id": 14
+    },
+    {
+      "key": "y24-9",
+      "question": 9,
+      "document": "2024 암기문항 정리",
+      "section": "2.4",
+      "id": 27
+    }
+  ],
+  "originalCount": 49,
+  "byExam": {
+    "2025 글미 중간": 19,
+    "2025 미경 중간": 18,
+    "2025 미경 기말": 12
+  },
+  "difficulty": {
+    "중급": 113,
+    "초급": 85,
+    "상급": 22
+  },
+  "sources": {
+    "기출": 91,
+    "교재 기반": 110,
+    "기출 변형": 19
+  },
+  "weeks": {
+    "1": 44,
+    "2": 33,
+    "3": 36,
+    "4": 19,
+    "5": 26,
+    "6": 27,
+    "7": 22,
+    "8": 13
+  },
+  "originals": [
+    {
+      "id": 1,
+      "source": "2025 글미 중간 · 1번",
+      "key": "gm-1",
+      "page": 1,
+      "image": "/exam-originals/gm-1-diagram.png"
+    },
+    {
+      "id": 2,
+      "source": "2025 글미 중간 · 2번",
+      "key": "gm-2",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 3,
+      "source": "2025 글미 중간 · 3번",
+      "key": "gm-3",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 4,
+      "source": "2025 글미 중간 · 4번",
+      "key": "gm-4",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 5,
+      "source": "2025 미경 중간 · 1번 · 2024 기출 1번",
+      "key": "mm-1",
+      "page": 1,
+      "image": "/exam-originals/mm-1-diagram.png"
+    },
+    {
+      "id": 6,
+      "source": "2025 미경 중간 · 2번 · 2024 기출 2번",
+      "key": "mm-2",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 7,
+      "source": "2025 미경 중간 · 3번 · 2024 기출 3번",
+      "key": "mm-3",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 8,
+      "source": "2025 미경 중간 · 4번 · 2024 기출 4번",
+      "key": "mm-4",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 9,
+      "source": "2025 미경 중간 · 5번 · 2024 기출 5번",
+      "key": "mm-5",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 10,
+      "source": "2021 기출 · 1번",
+      "key": "y21-1",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 11,
+      "source": "2021 기출 · 2번 · 2022 기출 3번 · 2023 기출 4번",
+      "key": "y21-2",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 12,
+      "source": "2021 기출 · 3번 · 2024 암기문항 정리 3번",
+      "key": "y21-3",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 13,
+      "source": "2021 기출 · 4번",
+      "key": "y21-4",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 14,
+      "source": "2021 기출 · 5번 · 2024 암기문항 정리 8번",
+      "key": "y21-5",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 15,
+      "source": "2021 기출 · 6번 · 2023 기출 3번",
+      "key": "y21-6",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 16,
+      "source": "2021 기출 · 7번 · 2022 기출 4번",
+      "key": "y21-7",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 17,
+      "source": "2021 기출 · 12번",
+      "key": "y21-12",
+      "page": 1,
+      "image": "/exam-originals/y21-12.png"
+    },
+    {
+      "id": 18,
+      "source": "2022 기출 · 1번",
+      "key": "y22-1",
+      "page": 4,
+      "image": null
+    },
+    {
+      "id": 19,
+      "source": "2023 기출 · 1번",
+      "key": "y23-1",
+      "page": 1,
+      "image": "/exam-originals/mm-1-diagram.png"
+    },
+    {
+      "id": 20,
+      "source": "2023 기출 · 2번",
+      "key": "y23-2",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 21,
+      "source": "2024 암기문항 정리 · 1번",
+      "key": "y24-1",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 22,
+      "source": "2024 암기문항 정리 · 2번",
+      "key": "y24-2",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 23,
+      "source": "2024 암기문항 정리 · 4번",
+      "key": "y24-4",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 24,
+      "source": "2024 암기문항 정리 · 5번",
+      "key": "y24-5",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 25,
+      "source": "2024 암기문항 정리 · 6번",
+      "key": "y24-6",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 26,
+      "source": "2024 암기문항 정리 · 7번",
+      "key": "y24-7",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 27,
+      "source": "2024 암기문항 정리 · 9번",
+      "key": "y24-9",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 45,
+      "source": "2025 글미 중간 · 6번",
+      "key": "gm-6",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 46,
+      "source": "2025 글미 중간 · 7번",
+      "key": "gm-7",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 47,
+      "source": "2025 글미 중간 · 10번",
+      "key": "gm-10",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 48,
+      "source": "2025 미경 중간 · 8번 · 2024 기출 8번",
+      "key": "mm-8",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 49,
+      "source": "2021 기출 · 11번",
+      "key": "y21-11",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 50,
+      "source": "2021 기출 · 13번",
+      "key": "y21-13",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 51,
+      "source": "2021 기출 · 14번",
+      "key": "y21-14",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 52,
+      "source": "2021 기출 · 15번",
+      "key": "y21-15",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 53,
+      "source": "2022 기출 · 5번",
+      "key": "y22-5",
+      "page": 4,
+      "image": null
+    },
+    {
+      "id": 54,
+      "source": "2022 기출 · 6번",
+      "key": "y22-6",
+      "page": 5,
+      "image": null
+    },
+    {
+      "id": 55,
+      "source": "2023 기출 · 8번",
+      "key": "y23-8",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 56,
+      "source": "2023 기출 · 11번",
+      "key": "y23-11",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 57,
+      "source": "2023 기출 · 12번",
+      "key": "y23-12",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 78,
+      "source": "2025 글미 중간 · 9번",
+      "key": "gm-9",
+      "page": 2,
+      "image": "/exam-originals/gm-9-diagram.png"
+    },
+    {
+      "id": 79,
+      "source": "2025 글미 중간 · 11번",
+      "key": "gm-11",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 80,
+      "source": "2025 글미 중간 · 12번",
+      "key": "gm-12",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 81,
+      "source": "2025 글미 중간 · 14번",
+      "key": "gm-14",
+      "page": 3,
+      "image": "/exam-originals/gm-14-diagram.png"
+    },
+    {
+      "id": 82,
+      "source": "2025 글미 중간 · 15번",
+      "key": "gm-15",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 83,
+      "source": "2025 글미 중간 · 16번",
+      "key": "gm-16",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 84,
+      "source": "2025 글미 중간 · 17번",
+      "key": "gm-17",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 85,
+      "source": "2025 글미 중간 · 18번",
+      "key": "gm-18",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 86,
+      "source": "2025 미경 중간 · 7번 · 2024 기출 7번",
+      "key": "mm-7",
+      "page": 1,
+      "image": "/exam-originals/mm-7-diagram.png"
+    },
+    {
+      "id": 87,
+      "source": "2025 미경 중간 · 9번 · 2024 기출 9번",
+      "key": "mm-9",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 88,
+      "source": "2025 미경 중간 · 10번 · 2024 기출 10번",
+      "key": "mm-10",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 89,
+      "source": "2025 미경 중간 · 11번 · 2024 기출 11번",
+      "key": "mm-11",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 90,
+      "source": "2025 미경 중간 · 12번 · 2024 기출 12번",
+      "key": "mm-12",
+      "page": 3,
+      "image": "/exam-originals/mm-12-diagram.png"
+    },
+    {
+      "id": 91,
+      "source": "2025 미경 중간 · 13번 · 2024 기출 13번",
+      "key": "mm-13",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 92,
+      "source": "2025 미경 중간 · 14번 · 2024 기출 14번",
+      "key": "mm-14",
+      "page": 3,
+      "image": "/exam-originals/mm-14-diagram.png"
+    },
+    {
+      "id": 93,
+      "source": "2025 미경 중간 · 15번 · 2024 기출 15번",
+      "key": "mm-15",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 94,
+      "source": "2025 미경 중간 · 16번 · 2024 기출 16번",
+      "key": "mm-16",
+      "page": 4,
+      "image": null
+    },
+    {
+      "id": 95,
+      "source": "2025 미경 중간 · 17번 · 2024 기출 17번",
+      "key": "mm-17",
+      "page": 4,
+      "image": "/exam-originals/mm-17-diagram.png"
+    },
+    {
+      "id": 96,
+      "source": "2022 기출 · 2번",
+      "key": "y22-2",
+      "page": 4,
+      "image": null
+    },
+    {
+      "id": 97,
+      "source": "2022 기출 · 7번",
+      "key": "y22-7",
+      "page": 5,
+      "image": null
+    },
+    {
+      "id": 98,
+      "source": "2022 기출 · 8번",
+      "key": "y22-8",
+      "page": 5,
+      "image": "/exam-originals/ripple.svg"
+    },
+    {
+      "id": 99,
+      "source": "2023 기출 · 6번",
+      "key": "y23-6",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 100,
+      "source": "2023 기출 · 9번",
+      "key": "y23-9",
+      "page": 2,
+      "image": "/exam-originals/logic23.svg"
+    },
+    {
+      "id": 101,
+      "source": "2023 기출 · 10번",
+      "key": "y23-10",
+      "page": 2,
+      "image": "/exam-originals/xor23.svg"
+    },
+    {
+      "id": 114,
+      "source": "2025 글미 중간 · 5번",
+      "key": "gm-5",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 115,
+      "source": "2025 글미 중간 · 8번",
+      "key": "gm-8",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 116,
+      "source": "2025 글미 중간 · 13번",
+      "key": "gm-13",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 117,
+      "source": "2025 글미 중간 · 19번",
+      "key": "gm-19",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 118,
+      "source": "2025 미경 중간 · 6번 · 2024 기출 6번",
+      "key": "mm-6",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 119,
+      "source": "2025 미경 중간 · 18번 · 2024 기출 18번",
+      "key": "mm-18",
+      "page": 4,
+      "image": "/exam-originals/mm-18-diagram.png"
+    },
+    {
+      "id": 120,
+      "source": "2023 기출 · 5번",
+      "key": "y23-5",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 121,
+      "source": "2023 기출 · 13번",
+      "key": "y23-13",
+      "page": 3,
+      "image": "/exam-originals/ripple.svg"
+    },
+    {
+      "id": 133,
+      "source": "2025 미경 기말 · 1번",
+      "key": "mf-1",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 134,
+      "source": "2025 미경 기말 · 2번",
+      "key": "mf-2",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 135,
+      "source": "2025 미경 기말 · 3번",
+      "key": "mf-3",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 136,
+      "source": "2025 미경 기말 · 4번",
+      "key": "mf-4",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 137,
+      "source": "2025 미경 기말 · 5번",
+      "key": "mf-5",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 138,
+      "source": "2021 기출 · 8번",
+      "key": "y21-8",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 139,
+      "source": "2021 기출 · 9번",
+      "key": "y21-9",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 140,
+      "source": "2022 기출 · 9번",
+      "key": "y22-9",
+      "page": 6,
+      "image": null
+    },
+    {
+      "id": 141,
+      "source": "2023 기출 · 7번",
+      "key": "y23-7",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 142,
+      "source": "2023 기출 · 14번",
+      "key": "y23-14",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 143,
+      "source": "2023 기출 · 16번",
+      "key": "y23-16",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 159,
+      "source": "2025 미경 기말 · 6번",
+      "key": "mf-6",
+      "page": 1,
+      "image": null
+    },
+    {
+      "id": 160,
+      "source": "2025 미경 기말 · 7번",
+      "key": "mf-7",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 161,
+      "source": "2023 기출 · 15번",
+      "key": "y23-15",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 186,
+      "source": "2025 미경 기말 · 10번",
+      "key": "mf-10",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 187,
+      "source": "2025 미경 기말 · 11번",
+      "key": "mf-11",
+      "page": 3,
+      "image": null
+    },
+    {
+      "id": 188,
+      "source": "2025 미경 기말 · 12번",
+      "key": "mf-12",
+      "page": 4,
+      "image": null
+    },
+    {
+      "id": 208,
+      "source": "2025 미경 기말 · 8번",
+      "key": "mf-8",
+      "page": 2,
+      "image": null
+    },
+    {
+      "id": 209,
+      "source": "2025 미경 기말 · 9번",
+      "key": "mf-9",
+      "page": 2,
+      "image": null
+    }
+  ]
+}

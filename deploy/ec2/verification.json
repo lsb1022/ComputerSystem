@@ -1,0 +1,12 @@
+{
+  "runtime": "Node 24.19.0, local Linux",
+  "concurrentTestAccounts": 30,
+  "concurrentLoginCheck": "passed",
+  "subsequentReadWriteRequests": 270,
+  "requestFailures": 0,
+  "persistedStudentAnswers": 30,
+  "subsequentRequestsElapsedMs": 2606,
+  "subsequentRequestsP95Ms": 585,
+  "checks": ["unauthenticated lesson redirect", "unauthenticated asset denial", "private file denial", "student admin denial", "cross-origin write denial", "incomplete lesson denial", "anonymous post creation and retrieval"],
+  "notVerified": ["Docker image execution", "actual AWS instance throughput", "production data migration", "DNS and TLS issuance"]
+}

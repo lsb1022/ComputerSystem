@@ -1,0 +1,1583 @@
+{
+  "summary": {
+    "total": 220,
+    "originalExams": {
+      "2025 글미 중간": 19,
+      "2025 미경 중간": 18,
+      "2025 미경 기말": 12
+    },
+    "originalQuestionCoverage": 49,
+    "historicalReferences": 48,
+    "historicalExcluded": 9,
+    "difficulty": {
+      "중급": 113,
+      "초급": 85,
+      "상급": 22
+    },
+    "sources": {
+      "기출": 91,
+      "교재 기반": 110,
+      "기출 변형": 19
+    },
+    "uniquePromptsBefore": 219,
+    "exactRepeatsBefore": 1,
+    "numberNormalizedShapes": 219,
+    "weekCounts": [
+      44,
+      33,
+      36,
+      19,
+      26,
+      27,
+      22,
+      13
+    ],
+    "originalViewersVerified": 115,
+    "renderSmokeTestsPassed": 230,
+    "diagramsAdded": 13,
+    "reviewScope": "교재 110개 선별·수정 및 변형 19개 개별 검토. 실제 기출 91개와 별도 심화 10개는 유지.",
+    "allDifferentReasoningClaim": false
+  },
+  "rows": [
+    {
+      "id": 1,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 2,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 3,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 4,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 5,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 6,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 7,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 8,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 9,
+      "week": 1,
+      "duplicateOf": 3,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 10,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 11,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 12,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 13,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 14,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 15,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 16,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 17,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 18,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 19,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 20,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 21,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 22,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 23,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 24,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 25,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 26,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 27,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 28,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "정수와 소수 변환의 자리 생성 순서"
+    },
+    {
+      "id": 29,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "OS 실행 이전 펌웨어 실행 가능성"
+    },
+    {
+      "id": 30,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "명령 데이터 분리 구조 식별"
+    },
+    {
+      "id": 31,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "이진 위치 가중치 합산"
+    },
+    {
+      "id": 32,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "16진 자리 가중치 합산"
+    },
+    {
+      "id": 33,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "비트에서 바이트로 단위 환산"
+    },
+    {
+      "id": 34,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "고정 폭의 선행 영 채우기"
+    },
+    {
+      "id": 35,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "이진 접두어 KiB 해석"
+    },
+    {
+      "id": 36,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "상용 컴퓨터의 역사적 사례"
+    },
+    {
+      "id": 37,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "이진 증가 연산"
+    },
+    {
+      "id": 38,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "4비트 묶음으로 16진 표기"
+    },
+    {
+      "id": 39,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "주소선 수와 주소 개수"
+    },
+    {
+      "id": 40,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "정수 반복 나눗셈 진법 변환"
+    },
+    {
+      "id": 41,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "두 논리 상태와 물리 전압 범위의 구별"
+    },
+    {
+      "id": 42,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "사용 목적에 따른 임베디드 컴퓨터 분류"
+    },
+    {
+      "id": 43,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "구체적 장치와 소프트웨어를 하드웨어 역할에 분류"
+    },
+    {
+      "id": 44,
+      "week": 1,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "부팅 설명의 저장 위치와 적재 방향 오류 교정"
+    },
+    {
+      "id": 45,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 46,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 47,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 48,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 49,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 50,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 51,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 52,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 53,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 54,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 55,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 56,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 57,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 58,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "최소 음수의 부호 반전 예외"
+    },
+    {
+      "id": 59,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "자료형별 폭 확장과 값 보존"
+    },
+    {
+      "id": 60,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "캐리와 부호 오버플로 분리"
+    },
+    {
+      "id": 61,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "큰 실수에서 작은 증가량 소실"
+    },
+    {
+      "id": 62,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "예약 지수를 제외한 정규수 경계"
+    },
+    {
+      "id": 63,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "유한 이진 소수의 분모 조건"
+    },
+    {
+      "id": 64,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "숫자 문자 코드와 자릿수 출력 구별"
+    },
+    {
+      "id": 65,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "음의 영과 2의 보수 범위 비대칭"
+    },
+    {
+      "id": 66,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "고정 비트 예산의 범위 정밀도 교환"
+    },
+    {
+      "id": 67,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "10의 보수의 자릿수 확장"
+    },
+    {
+      "id": 68,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "2의 보수 비트열을 음수로 복원"
+    },
+    {
+      "id": 69,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "부동소수점 지수부 역할"
+    },
+    {
+      "id": 70,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "비트 수로 2의 보수 최소값 산정"
+    },
+    {
+      "id": 71,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "부동소수점 fraction의 역할"
+    },
+    {
+      "id": 72,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "정규수 hidden bit의 전제"
+    },
+    {
+      "id": 73,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "부호 비트의 의미"
+    },
+    {
+      "id": 74,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "음수를 반전과 더하기로 인코딩"
+    },
+    {
+      "id": 75,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "필요한 수 범위로 표현 방식과 최소 폭 선택"
+    },
+    {
+      "id": 76,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "금액의 이진 실수 오차를 정수 단위 설계로 회피"
+    },
+    {
+      "id": 77,
+      "week": 2,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "알려진 실수 값으로 지수 bias 역산"
+    },
+    {
+      "id": 78,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 79,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 80,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 81,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 82,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 83,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 84,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 85,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 86,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 87,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 88,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 89,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 90,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 91,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 92,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 93,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 94,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 95,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 96,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 97,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 98,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 99,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 100,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 101,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 102,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "가감산기의 누락된 최초 캐리 진단"
+    },
+    {
+      "id": 103,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "전가산기 캐리 식의 경우 분할 증명"
+    },
+    {
+      "id": 104,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "D 소자로 유지와 토글 구현"
+    },
+    {
+      "id": 105,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "JK 소자로 D 동작 구현"
+    },
+    {
+      "id": 106,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "SR 금지 상태 해제 후 불확정성"
+    },
+    {
+      "id": 107,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "OR 조건의 진리표"
+    },
+    {
+      "id": 108,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "클록 에지에서 D 저장"
+    },
+    {
+      "id": 109,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "NOT 입력 반전"
+    },
+    {
+      "id": 110,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "AND 동시 만족 조건"
+    },
+    {
+      "id": 111,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "두 비트 덧셈을 합과 캐리로 분해"
+    },
+    {
+      "id": 112,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "간소화 후보 두 개의 반례로 동치 여부 판정"
+    },
+    {
+      "id": 113,
+      "week": 3,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "SR 동시 요청에 리셋 우선 입력 처리 설계"
+    },
+    {
+      "id": 114,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 115,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 116,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 117,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 118,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 119,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 120,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 121,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 122,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "정규화 후 부동소수점 인코딩"
+    },
+    {
+      "id": 123,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "현재 입력만으로 과거 사건 판단 불가"
+    },
+    {
+      "id": 124,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "보수 항 결합에 의한 식 간소화"
+    },
+    {
+      "id": 125,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "뺄셈 가산기 추적과 범위 검증"
+    },
+    {
+      "id": 126,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "16진 표기와 자료형의 독립성"
+    },
+    {
+      "id": 127,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "부동소수점 형식 정보 누락 식별"
+    },
+    {
+      "id": 128,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "영 검출에서 패리티 사용 오류"
+    },
+    {
+      "id": 129,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "카르노 맵의 경계 인접성"
+    },
+    {
+      "id": 130,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "다른 부호 표현의 오버플로 검출식을 잘못 이식한 반례"
+    },
+    {
+      "id": 131,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "리플 전이 도중 영 검출기의 일시적 오인식"
+    },
+    {
+      "id": 132,
+      "week": 4,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "보수 해석의 경계와 모듈러 복원 규칙 유도"
+    },
+    {
+      "id": 133,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 134,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 135,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 136,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 137,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 138,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 139,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 140,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 141,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 142,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 143,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 144,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "배열 순회 순서와 공간 지역성"
+    },
+    {
+      "id": 145,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "블록 반입 후 후속 접근 적중 추적"
+    },
+    {
+      "id": 146,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "인출과 분기 실행 시점의 PC 구별"
+    },
+    {
+      "id": 147,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "휘발성과 DRAM 리프레시 구별"
+    },
+    {
+      "id": 148,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "파이프라인 처리량과 지연 구별"
+    },
+    {
+      "id": 149,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "주소 폭과 전송 폭 독립 계산"
+    },
+    {
+      "id": 150,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "단회 무작위 접근의 지역성 한계"
+    },
+    {
+      "id": 151,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "IR의 보관 대상"
+    },
+    {
+      "id": 152,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "실행 중 프로그램을 두는 기억장치"
+    },
+    {
+      "id": 153,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "MBR의 보관 대상"
+    },
+    {
+      "id": 154,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "누산기의 연산 결과 보관"
+    },
+    {
+      "id": 155,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "PC의 주소 보관 역할"
+    },
+    {
+      "id": 156,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "메모리 쓰기 거래에서 주소와 데이터 경로 배치"
+    },
+    {
+      "id": 157,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "파이프라인 채우기와 비우기를 포함한 짧은 작업 시간"
+    },
+    {
+      "id": 158,
+      "week": 5,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "접근 수가 다른 작업의 적중률 가중 합산"
+    },
+    {
+      "id": 159,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 160,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 161,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 162,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "바이트 적재 후 상위 바이트 잔존"
+    },
+    {
+      "id": 163,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "워드 읽기와 바이트 읽기 폭 비교"
+    },
+    {
+      "id": 164,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "심볼 주소 즉시값과 메모리 내용 구별"
+    },
+    {
+      "id": 165,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "워드 저장에 의한 인접 바이트 덮어쓰기"
+    },
+    {
+      "id": 166,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "코드 삽입 후 숫자 주소 재배치"
+    },
+    {
+      "id": 167,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "문자열 종료 바이트 누락"
+    },
+    {
+      "id": 168,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "EQUATE 상수와 WORD 변수의 모드 선택"
+    },
+    {
+      "id": 169,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "같은 주소의 정수와 문자 출력 해석"
+    },
+    {
+      "id": 170,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "누산기 계산과 메모리 저장의 구별"
+    },
+    {
+      "id": 171,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "가변 명령 길이와 저장 결과 추적"
+    },
+    {
+      "id": 172,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "문자 코드 이동의 입력 범위 제한"
+    },
+    {
+      "id": 173,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "STA 저장 명령 식별"
+    },
+    {
+      "id": 174,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "ADDA 누산기 가산 역할"
+    },
+    {
+      "id": 175,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "SUBA 피연산자 차감 역할"
+    },
+    {
+      "id": 176,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "DECI 정수 입력 저장"
+    },
+    {
+      "id": 177,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "DECO 정수 출력"
+    },
+    {
+      "id": 178,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "CHARI 문자 입력"
+    },
+    {
+      "id": 179,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "STRO 문자열 출력"
+    },
+    {
+      "id": 180,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "LDA 적재 명령 역할"
+    },
+    {
+      "id": 181,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "어셈블러 지시어와 실행 종료 명령 구별"
+    },
+    {
+      "id": 182,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "정적 데이터 선언 크기로 심볼 주소 산정"
+    },
+    {
+      "id": 183,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "문자 입력과 정수 입력의 메모리 표현 차이"
+    },
+    {
+      "id": 184,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "최종 메모리 목표에서 누락 연산을 역추론"
+    },
+    {
+      "id": 185,
+      "week": 6,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "명령 수만으로 CISC와 RISC 성능을 판단할 수 없는 이유"
+    },
+    {
+      "id": 186,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 187,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 188,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 189,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "루프 종료 분기의 극성 오류"
+    },
+    {
+      "id": 190,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "참 분기 후 else로 이어지는 낙하 실행"
+    },
+    {
+      "id": 191,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "음수 최대값 초기화와 빈 입력"
+    },
+    {
+      "id": 192,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "반복 곱셈의 누적식과 종료 횟수"
+    },
+    {
+      "id": 193,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "절댓값과 누적합의 별개 범위 검사"
+    },
+    {
+      "id": 194,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "전검사 후검사 반복의 최초 실행"
+    },
+    {
+      "id": 195,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "구간 바깥 조건의 논리합"
+    },
+    {
+      "id": 196,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "중첩 반복의 내부 초기화 위치"
+    },
+    {
+      "id": 197,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "복귀와 단순 분기의 스택 효과 차이"
+    },
+    {
+      "id": 198,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "BRNE의 Z 조건"
+    },
+    {
+      "id": 199,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "BRLT의 비교 방향"
+    },
+    {
+      "id": 200,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "BRGT의 비교 방향"
+    },
+    {
+      "id": 201,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "조건 없는 제어 이동"
+    },
+    {
+      "id": 202,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "CALL의 복귀 주소 보존"
+    },
+    {
+      "id": 203,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "RET0의 복귀 동작"
+    },
+    {
+      "id": 204,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "BREQ의 일치 조건"
+    },
+    {
+      "id": 205,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "비교 명령의 플래그 갱신과 누산기 보존"
+    },
+    {
+      "id": 206,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "종료 표식과 데이터 부호를 혼동한 반복 조건 오류"
+    },
+    {
+      "id": 207,
+      "week": 7,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "포함 경계 조건의 최소 경계 테스트 설계"
+    },
+    {
+      "id": 208,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 209,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "기존 원문 대조 유지",
+      "focus": null
+    },
+    {
+      "id": 210,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "반복 작업 사이 메모리 누적값 초기화"
+    },
+    {
+      "id": 211,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "호출 전 레지스터 원본 보존 계약"
+    },
+    {
+      "id": 212,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "16비트 산술 결과와 수학적 합 차이"
+    },
+    {
+      "id": 213,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "증가 간격으로 종료값을 건너뛰는 반복문"
+    },
+    {
+      "id": 214,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "영 종료 문자열의 길이 계산 순서"
+    },
+    {
+      "id": 215,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "감소 변수에 의한 반복 종료 논증"
+    },
+    {
+      "id": 216,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "바이트 적재 저장 연결 추적"
+    },
+    {
+      "id": 217,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "ANDA 비트 마스크 계산"
+    },
+    {
+      "id": 218,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "감소 루프의 본문 실행 횟수"
+    },
+    {
+      "id": 219,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "무조건 분기에 의한 도달 불가능 코드 판별"
+    },
+    {
+      "id": 220,
+      "week": 8,
+      "duplicateOf": null,
+      "semanticReview": "문항별 조건·정답·사고 과정 검토",
+      "focus": "명령어 피연산자 바이트를 수정한 후의 재해독"
+    }
+  ]
+}

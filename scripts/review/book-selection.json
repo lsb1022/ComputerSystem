@@ -1,0 +1,614 @@
+[
+  {
+    "oldId": 34,
+    "difficulty": "중급",
+    "focus": "정수와 소수 변환의 자리 생성 순서",
+    "uid": "594d925b7a201a5f"
+  },
+  {
+    "oldId": 37,
+    "difficulty": "초급",
+    "focus": "OS 실행 이전 펌웨어 실행 가능성",
+    "uid": "d32ad4a0b346688b"
+  },
+  {
+    "oldId": 49,
+    "difficulty": "초급",
+    "focus": "명령 데이터 분리 구조 식별",
+    "uid": "30114a7cc2516496"
+  },
+  {
+    "oldId": 50,
+    "difficulty": "초급",
+    "focus": "이진 위치 가중치 합산",
+    "uid": "d8fc25287f222af4"
+  },
+  {
+    "oldId": 51,
+    "difficulty": "초급",
+    "focus": "16진 자리 가중치 합산",
+    "uid": "11958299b37a0f0b"
+  },
+  {
+    "oldId": 52,
+    "difficulty": "초급",
+    "focus": "비트에서 바이트로 단위 환산",
+    "uid": "a08ae1da1bc8fb65"
+  },
+  {
+    "oldId": 56,
+    "difficulty": "초급",
+    "focus": "고정 폭의 선행 영 채우기",
+    "uid": "b5dfc6c825d6d353"
+  },
+  {
+    "oldId": 58,
+    "difficulty": "초급",
+    "focus": "이진 접두어 KiB 해석",
+    "uid": "1d590aad8b9c1a51"
+  },
+  {
+    "oldId": 59,
+    "difficulty": "초급",
+    "focus": "상용 컴퓨터의 역사적 사례",
+    "uid": "15e0cacf2efdf348"
+  },
+  {
+    "oldId": 62,
+    "difficulty": "초급",
+    "focus": "이진 증가 연산",
+    "uid": "0d5ba505acd3da3c"
+  },
+  {
+    "oldId": 63,
+    "difficulty": "초급",
+    "focus": "4비트 묶음으로 16진 표기",
+    "uid": "dfa5634487acdc0c"
+  },
+  {
+    "oldId": 64,
+    "difficulty": "초급",
+    "focus": "주소선 수와 주소 개수",
+    "uid": "cfc659c8647f6ee8"
+  },
+  {
+    "oldId": 71,
+    "difficulty": "초급",
+    "focus": "정수 반복 나눗셈 진법 변환",
+    "uid": "abf78ba4efee3dc2"
+  },
+  {
+    "oldId": 139,
+    "difficulty": "중급",
+    "focus": "최소 음수의 부호 반전 예외",
+    "uid": "b3db44cbed32d1d8"
+  },
+  {
+    "oldId": 140,
+    "difficulty": "중급",
+    "focus": "자료형별 폭 확장과 값 보존",
+    "uid": "1048b881c831d44a"
+  },
+  {
+    "oldId": 141,
+    "difficulty": "중급",
+    "focus": "캐리와 부호 오버플로 분리",
+    "uid": "7ecbd069cda2eca0"
+  },
+  {
+    "oldId": 143,
+    "difficulty": "중급",
+    "focus": "큰 실수에서 작은 증가량 소실",
+    "uid": "519a8aa173327f82"
+  },
+  {
+    "oldId": 144,
+    "difficulty": "중급",
+    "focus": "예약 지수를 제외한 정규수 경계",
+    "uid": "963fd6634c1c6a9d"
+  },
+  {
+    "oldId": 145,
+    "difficulty": "중급",
+    "focus": "유한 이진 소수의 분모 조건",
+    "uid": "859fd5da7b0ec145"
+  },
+  {
+    "oldId": 147,
+    "difficulty": "중급",
+    "focus": "숫자 문자 코드와 자릿수 출력 구별",
+    "uid": "47b42e8adf0f3fbc"
+  },
+  {
+    "oldId": 148,
+    "difficulty": "초급",
+    "focus": "음의 영과 2의 보수 범위 비대칭",
+    "uid": "28810f97390dc250"
+  },
+  {
+    "oldId": 149,
+    "difficulty": "중급",
+    "focus": "고정 비트 예산의 범위 정밀도 교환",
+    "uid": "6be2e94105f8ddd4"
+  },
+  {
+    "oldId": 150,
+    "difficulty": "상급",
+    "focus": "10의 보수의 자릿수 확장",
+    "uid": "903335da902bbbfa"
+  },
+  {
+    "oldId": 153,
+    "difficulty": "초급",
+    "focus": "2의 보수 비트열을 음수로 복원",
+    "uid": "27018d8f904f750c"
+  },
+  {
+    "oldId": 154,
+    "difficulty": "초급",
+    "focus": "부동소수점 지수부 역할",
+    "uid": "88bc949dcf2f910f"
+  },
+  {
+    "oldId": 158,
+    "difficulty": "초급",
+    "focus": "비트 수로 2의 보수 최소값 산정",
+    "uid": "698bbba00bbcfeda"
+  },
+  {
+    "oldId": 159,
+    "difficulty": "초급",
+    "focus": "부동소수점 fraction의 역할",
+    "uid": "2d009cc2f28d87ee"
+  },
+  {
+    "oldId": 164,
+    "difficulty": "초급",
+    "focus": "정규수 hidden bit의 전제",
+    "uid": "3b02d22e700a64b2"
+  },
+  {
+    "oldId": 169,
+    "difficulty": "초급",
+    "focus": "부호 비트의 의미",
+    "uid": "38f92d2f9f5a4c33"
+  },
+  {
+    "oldId": 173,
+    "difficulty": "초급",
+    "focus": "음수를 반전과 더하기로 인코딩",
+    "uid": "fd4c471d18df4e86"
+  },
+  {
+    "oldId": 277,
+    "difficulty": "중급",
+    "focus": "가감산기의 누락된 최초 캐리 진단",
+    "uid": "cea2cb93f5d3dd8a"
+  },
+  {
+    "oldId": 278,
+    "difficulty": "중급",
+    "focus": "전가산기 캐리 식의 경우 분할 증명",
+    "uid": "a3d54b619e0defd0"
+  },
+  {
+    "oldId": 279,
+    "difficulty": "중급",
+    "focus": "D 소자로 유지와 토글 구현",
+    "uid": "a7d8ba84c1a2e4b2"
+  },
+  {
+    "oldId": 280,
+    "difficulty": "중급",
+    "focus": "JK 소자로 D 동작 구현",
+    "uid": "1f844f47978ef20f"
+  },
+  {
+    "oldId": 284,
+    "difficulty": "중급",
+    "focus": "SR 금지 상태 해제 후 불확정성",
+    "uid": "bfece7937988df45"
+  },
+  {
+    "oldId": 289,
+    "difficulty": "초급",
+    "focus": "OR 조건의 진리표",
+    "uid": "6d21b49248cf418e"
+  },
+  {
+    "oldId": 290,
+    "difficulty": "초급",
+    "focus": "클록 에지에서 D 저장",
+    "uid": "c03ce150f5628ba5"
+  },
+  {
+    "oldId": 293,
+    "difficulty": "초급",
+    "focus": "NOT 입력 반전",
+    "uid": "2e371390a32a302a"
+  },
+  {
+    "oldId": 295,
+    "difficulty": "초급",
+    "focus": "AND 동시 만족 조건",
+    "uid": "eee9e6fddfbe644b"
+  },
+  {
+    "oldId": 385,
+    "difficulty": "중급",
+    "focus": "정규화 후 부동소수점 인코딩",
+    "uid": "72046f5309bab60d"
+  },
+  {
+    "oldId": 386,
+    "difficulty": "초급",
+    "focus": "현재 입력만으로 과거 사건 판단 불가",
+    "uid": "c289c55c215cce06"
+  },
+  {
+    "oldId": 387,
+    "difficulty": "중급",
+    "focus": "보수 항 결합에 의한 식 간소화",
+    "uid": "6add0f5047797dd8"
+  },
+  {
+    "oldId": 388,
+    "difficulty": "중급",
+    "focus": "뺄셈 가산기 추적과 범위 검증",
+    "uid": "8e709f86e24e2e52"
+  },
+  {
+    "oldId": 390,
+    "difficulty": "초급",
+    "focus": "16진 표기와 자료형의 독립성",
+    "uid": "688be7bdeddcc963"
+  },
+  {
+    "oldId": 391,
+    "difficulty": "중급",
+    "focus": "부동소수점 형식 정보 누락 식별",
+    "uid": "8b21fd622c1643df"
+  },
+  {
+    "oldId": 392,
+    "difficulty": "중급",
+    "focus": "영 검출에서 패리티 사용 오류",
+    "uid": "c4bed5a8a2cbc6d6"
+  },
+  {
+    "oldId": 516,
+    "difficulty": "중급",
+    "focus": "배열 순회 순서와 공간 지역성",
+    "uid": "73315eda6a38a393"
+  },
+  {
+    "oldId": 517,
+    "difficulty": "중급",
+    "focus": "블록 반입 후 후속 접근 적중 추적",
+    "uid": "12cd698b9eafb72f"
+  },
+  {
+    "oldId": 518,
+    "difficulty": "중급",
+    "focus": "인출과 분기 실행 시점의 PC 구별",
+    "uid": "db07579642082391"
+  },
+  {
+    "oldId": 519,
+    "difficulty": "초급",
+    "focus": "휘발성과 DRAM 리프레시 구별",
+    "uid": "01be55a5daf2e2d4"
+  },
+  {
+    "oldId": 520,
+    "difficulty": "중급",
+    "focus": "파이프라인 처리량과 지연 구별",
+    "uid": "58b663141fb813eb"
+  },
+  {
+    "oldId": 521,
+    "difficulty": "중급",
+    "focus": "주소 폭과 전송 폭 독립 계산",
+    "uid": "fd4e4c98e18017ea"
+  },
+  {
+    "oldId": 523,
+    "difficulty": "중급",
+    "focus": "단회 무작위 접근의 지역성 한계",
+    "uid": "1bfa2f35b87d6a2d"
+  },
+  {
+    "oldId": 530,
+    "difficulty": "초급",
+    "focus": "IR의 보관 대상",
+    "uid": "b5e9ac8f07f0b8fe"
+  },
+  {
+    "oldId": 534,
+    "difficulty": "초급",
+    "focus": "실행 중 프로그램을 두는 기억장치",
+    "uid": "a78fa8d4d7e8bd75"
+  },
+  {
+    "oldId": 536,
+    "difficulty": "초급",
+    "focus": "MBR의 보관 대상",
+    "uid": "6f45814e309720eb"
+  },
+  {
+    "oldId": 539,
+    "difficulty": "초급",
+    "focus": "누산기의 연산 결과 보관",
+    "uid": "e7d684a7352b1cae"
+  },
+  {
+    "oldId": 542,
+    "difficulty": "초급",
+    "focus": "PC의 주소 보관 역할",
+    "uid": "24032863bfb89fb5"
+  },
+  {
+    "oldId": 629,
+    "difficulty": "중급",
+    "focus": "바이트 적재 후 상위 바이트 잔존",
+    "uid": "5b17cc580841c980"
+  },
+  {
+    "oldId": 630,
+    "difficulty": "중급",
+    "focus": "워드 읽기와 바이트 읽기 폭 비교",
+    "uid": "7f3ab9de15a8f4ba"
+  },
+  {
+    "oldId": 631,
+    "difficulty": "초급",
+    "focus": "심볼 주소 즉시값과 메모리 내용 구별",
+    "uid": "3c0cc06b8c259528"
+  },
+  {
+    "oldId": 632,
+    "difficulty": "중급",
+    "focus": "워드 저장에 의한 인접 바이트 덮어쓰기",
+    "uid": "c3886fd5b2123281"
+  },
+  {
+    "oldId": 633,
+    "difficulty": "중급",
+    "focus": "코드 삽입 후 숫자 주소 재배치",
+    "uid": "8f6445cf86c61184"
+  },
+  {
+    "oldId": 634,
+    "difficulty": "중급",
+    "focus": "문자열 종료 바이트 누락",
+    "uid": "5c190616b34aca1f"
+  },
+  {
+    "oldId": 635,
+    "difficulty": "중급",
+    "focus": "EQUATE 상수와 WORD 변수의 모드 선택",
+    "uid": "ee91b5c077d09929"
+  },
+  {
+    "oldId": 636,
+    "difficulty": "중급",
+    "focus": "같은 주소의 정수와 문자 출력 해석",
+    "uid": "e9225da8e9d007a8"
+  },
+  {
+    "oldId": 637,
+    "difficulty": "초급",
+    "focus": "누산기 계산과 메모리 저장의 구별",
+    "uid": "ba6a1724c0b5d070"
+  },
+  {
+    "oldId": 639,
+    "difficulty": "중급",
+    "focus": "가변 명령 길이와 저장 결과 추적",
+    "uid": "7ab1f5aac0de5eb4"
+  },
+  {
+    "oldId": 641,
+    "difficulty": "중급",
+    "focus": "문자 코드 이동의 입력 범위 제한",
+    "uid": "24790b6fe65537aa"
+  },
+  {
+    "oldId": 642,
+    "difficulty": "초급",
+    "focus": "STA 저장 명령 식별",
+    "uid": "c2baca4edd6b40bf"
+  },
+  {
+    "oldId": 645,
+    "difficulty": "초급",
+    "focus": "ADDA 누산기 가산 역할",
+    "uid": "c2c05be4bfd14d5c"
+  },
+  {
+    "oldId": 648,
+    "difficulty": "초급",
+    "focus": "SUBA 피연산자 차감 역할",
+    "uid": "0e70c9c46cfc1b0e"
+  },
+  {
+    "oldId": 651,
+    "difficulty": "초급",
+    "focus": "DECI 정수 입력 저장",
+    "uid": "26b0aff828f5d0fe"
+  },
+  {
+    "oldId": 654,
+    "difficulty": "초급",
+    "focus": "DECO 정수 출력",
+    "uid": "b6b7e404a07c2e5f"
+  },
+  {
+    "oldId": 656,
+    "difficulty": "초급",
+    "focus": "CHARI 문자 입력",
+    "uid": "3b17701e23567db5"
+  },
+  {
+    "oldId": 657,
+    "difficulty": "초급",
+    "focus": "STRO 문자열 출력",
+    "uid": "21580513e876de15"
+  },
+  {
+    "oldId": 658,
+    "difficulty": "초급",
+    "focus": "LDA 적재 명령 역할",
+    "uid": "645f8a1ea9683508"
+  },
+  {
+    "oldId": 754,
+    "difficulty": "중급",
+    "focus": "루프 종료 분기의 극성 오류",
+    "uid": "429601b8bf370b92"
+  },
+  {
+    "oldId": 755,
+    "difficulty": "중급",
+    "focus": "참 분기 후 else로 이어지는 낙하 실행",
+    "uid": "5b142f63c1bfbd19"
+  },
+  {
+    "oldId": 756,
+    "difficulty": "중급",
+    "focus": "음수 최대값 초기화와 빈 입력",
+    "uid": "34b731af8588d513"
+  },
+  {
+    "oldId": 757,
+    "difficulty": "중급",
+    "focus": "반복 곱셈의 누적식과 종료 횟수",
+    "uid": "95f0c737fc1268e7"
+  },
+  {
+    "oldId": 758,
+    "difficulty": "중급",
+    "focus": "절댓값과 누적합의 별개 범위 검사",
+    "uid": "c9cecc7da22114f1"
+  },
+  {
+    "oldId": 759,
+    "difficulty": "초급",
+    "focus": "전검사 후검사 반복의 최초 실행",
+    "uid": "d1c0b70737f567a3"
+  },
+  {
+    "oldId": 760,
+    "difficulty": "중급",
+    "focus": "구간 바깥 조건의 논리합",
+    "uid": "fb859a7e55a8e057"
+  },
+  {
+    "oldId": 761,
+    "difficulty": "중급",
+    "focus": "중첩 반복의 내부 초기화 위치",
+    "uid": "682c3663e0573f7b"
+  },
+  {
+    "oldId": 762,
+    "difficulty": "중급",
+    "focus": "복귀와 단순 분기의 스택 효과 차이",
+    "uid": "2a1c3070ef90eb98"
+  },
+  {
+    "oldId": 764,
+    "difficulty": "초급",
+    "focus": "BRNE의 Z 조건",
+    "uid": "6d95adb41ed9699a"
+  },
+  {
+    "oldId": 767,
+    "difficulty": "초급",
+    "focus": "BRLT의 비교 방향",
+    "uid": "3bf5dbee113ca2e2"
+  },
+  {
+    "oldId": 770,
+    "difficulty": "초급",
+    "focus": "BRGT의 비교 방향",
+    "uid": "844b5765484ab44c"
+  },
+  {
+    "oldId": 773,
+    "difficulty": "초급",
+    "focus": "조건 없는 제어 이동",
+    "uid": "01e29aaac1affd62"
+  },
+  {
+    "oldId": 776,
+    "difficulty": "초급",
+    "focus": "CALL의 복귀 주소 보존",
+    "uid": "bacfa54466e519af"
+  },
+  {
+    "oldId": 779,
+    "difficulty": "초급",
+    "focus": "RET0의 복귀 동작",
+    "uid": "7bbce521713c8770"
+  },
+  {
+    "oldId": 790,
+    "difficulty": "초급",
+    "focus": "BREQ의 일치 조건",
+    "uid": "156a3d9af0e7cc4e"
+  },
+  {
+    "oldId": 880,
+    "difficulty": "중급",
+    "focus": "반복 작업 사이 메모리 누적값 초기화",
+    "uid": "f9245484bdc228b5"
+  },
+  {
+    "oldId": 881,
+    "difficulty": "중급",
+    "focus": "호출 전 레지스터 원본 보존 계약",
+    "uid": "2d0bd1c5023ce497"
+  },
+  {
+    "oldId": 882,
+    "difficulty": "중급",
+    "focus": "16비트 산술 결과와 수학적 합 차이",
+    "uid": "7329abc8a633fcfe"
+  },
+  {
+    "oldId": 885,
+    "difficulty": "중급",
+    "focus": "센티넬을 최댓값 후보에 넣는 오류",
+    "uid": "a62643691d9af9ed"
+  },
+  {
+    "oldId": 886,
+    "difficulty": "중급",
+    "focus": "영 종료 문자열의 길이 계산 순서",
+    "uid": "1576f06842de2ccc"
+  },
+  {
+    "oldId": 887,
+    "difficulty": "중급",
+    "focus": "감소 변수에 의한 반복 종료 논증",
+    "uid": "dabc901db03b743f"
+  },
+  {
+    "oldId": 889,
+    "difficulty": "중급",
+    "focus": "바이트 적재 저장 연결 추적",
+    "uid": "d888a6f689ae1b4f"
+  },
+  {
+    "oldId": 901,
+    "difficulty": "중급",
+    "focus": "ANDA 비트 마스크 계산",
+    "uid": "563a92e61f55ff8d"
+  },
+  {
+    "oldId": 942,
+    "difficulty": "초급",
+    "focus": "감소 루프의 본문 실행 횟수",
+    "uid": "1187d0c79714f2ea"
+  }
+]

@@ -1,0 +1,2658 @@
+[
+  {
+    "week": 1,
+    "difficulty": "초급",
+    "topic": "표현과 구조",
+    "prompt": "10진 정수를 2진수로 바꿀 때 나머지를 얻은 순서와 반대로 읽는 이유를 쓰시오.",
+    "answer": "2로 나눌 때 첫 나머지는 2⁰ 자리이고, 이후 2¹, 2² 순서로 낮은 자리부터 얻기 때문이다. 표기는 높은 자리부터 하므로 역순으로 읽는다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.4 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.4",
+      "key": "unibook-extension-7"
+    },
+    "id": 34,
+    "uid": "594d925b7a201a5f",
+    "review": {
+      "focus": "정수와 소수 변환의 자리 생성 순서",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 34
+    }
+  },
+  {
+    "week": 1,
+    "difficulty": "초급",
+    "topic": "표현과 구조",
+    "prompt": "OS가 RAM에 없으면 CPU는 어떤 명령도 실행할 수 없다는 주장을 첫 명령 위치와 제어 이동으로 반박하시오.",
+    "answer": "리셋 후 정해진 위치의 펌웨어를 먼저 실행한다. 펌웨어·로더가 OS를 RAM에 적재하고 그 진입점으로 제어를 넘긴다. OS 실행 전에도 CPU는 명령어를 처리한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 1.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "1.3",
+      "key": "unibook-extension-10"
+    },
+    "id": 37,
+    "uid": "d32ad4a0b346688b",
+    "review": {
+      "focus": "OS 실행 이전 펌웨어 실행 가능성",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 37
+    }
+  },
+  {
+    "topic": "컴퓨터 구조",
+    "prompt": "“명령어와 데이터 메모리·버스를 분리”에 해당하는 개념은?",
+    "answer": "하버드 구조",
+    "explanation": "하버드 구조의 핵심 정의입니다.",
+    "difficulty": "초급",
+    "week": 1,
+    "source": "TypeBook 1.4·6.2·6.3",
+    "sourceType": "교재 기반",
+    "legacyId": 9,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "1.4·6.2·6.3",
+      "basis": "저장 프로그램 구조, 캐시와 파이프라인"
+    },
+    "id": 49,
+    "uid": "30114a7cc2516496",
+    "review": {
+      "focus": "명령 데이터 분리 구조 식별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 49
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "2진수 변환",
+    "difficulty": "초급",
+    "prompt": "2진수 1100를 10진수로 해석하세요.",
+    "answer": "12 — 각 자리의 2의 거듭제곱을 더하면 12입니다.",
+    "explanation": "",
+    "week": 1,
+    "source": "TypeBook 2.4",
+    "sourceType": "교재 기반",
+    "legacyId": 10,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.4",
+      "basis": "정수·소수의 진법 변환과 위치 가중치"
+    },
+    "grading": "self",
+    "id": 50,
+    "uid": "d8fc25287f222af4",
+    "review": {
+      "focus": "이진 위치 가중치 합산",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 50
+    }
+  },
+  {
+    "topic": "16진수 변환",
+    "difficulty": "초급",
+    "prompt": "16진수 23를 10진수로 변환하세요.",
+    "answer": "35 — 각 자리에 16의 거듭제곱을 곱해 더하면 35입니다.",
+    "explanation": "",
+    "week": 1,
+    "source": "TypeBook 2.3·2.4",
+    "sourceType": "교재 기반",
+    "legacyId": 11,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.3·2.4",
+      "basis": "16진수 한 자리와 4비트, 진법 변환"
+    },
+    "grading": "self",
+    "id": 51,
+    "uid": "11958299b37a0f0b",
+    "review": {
+      "focus": "16진 자리 가중치 합산",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 51
+    }
+  },
+  {
+    "topic": "비트와 용량",
+    "difficulty": "초급",
+    "prompt": "1024 bit는 몇 byte인가요?",
+    "answer": "128",
+    "explanation": "8로 나누면 128 byte입니다.",
+    "week": 1,
+    "source": "TypeBook 2.2·6.3",
+    "sourceType": "교재 기반",
+    "legacyId": 12,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.2·6.3",
+      "basis": "비트·바이트와 메모리 주소·용량"
+    },
+    "id": 52,
+    "uid": "a08ae1da1bc8fb65",
+    "review": {
+      "focus": "비트에서 바이트로 단위 환산",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 52
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "2진수 변환",
+    "difficulty": "초급",
+    "prompt": "15을 8비트로 저장할 때 앞에 추가되는 0의 개수는?",
+    "answer": "4",
+    "explanation": "15 = 1111이므로 8비트까지 4개의 0이 필요합니다.",
+    "week": 1,
+    "source": "TypeBook 2.4",
+    "sourceType": "교재 기반",
+    "legacyId": 16,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.4",
+      "basis": "정수·소수의 진법 변환과 위치 가중치"
+    },
+    "id": 56,
+    "uid": "b5dfc6c825d6d353",
+    "review": {
+      "focus": "고정 폭의 선행 영 채우기",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 56
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "비트와 용량",
+    "difficulty": "초급",
+    "prompt": "3 KiB는 몇 byte인가요?",
+    "answer": "3072 — 1 KiB = 1024 byte입니다.",
+    "explanation": "",
+    "week": 1,
+    "source": "TypeBook 2.2·6.3",
+    "sourceType": "교재 기반",
+    "legacyId": 18,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.2·6.3",
+      "basis": "비트·바이트와 메모리 주소·용량"
+    },
+    "grading": "self",
+    "id": 58,
+    "uid": "1d590aad8b9c1a51",
+    "review": {
+      "focus": "이진 접두어 KiB 해석",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 58
+    }
+  },
+  {
+    "topic": "컴퓨터 역사",
+    "prompt": "“최초의 상용 컴퓨터”에 해당하는 것은?",
+    "answer": "UNIVAC-I",
+    "explanation": "UNIVAC-I: 최초의 상용 컴퓨터.",
+    "difficulty": "초급",
+    "week": 1,
+    "source": "TypeBook 1.1",
+    "sourceType": "교재 기반",
+    "legacyId": 19,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "1.1",
+      "basis": "ABC·ENIAC·내장형 프로그램·UNIVAC"
+    },
+    "id": 59,
+    "uid": "15e0cacf2efdf348",
+    "review": {
+      "focus": "상용 컴퓨터의 역사적 사례",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 59
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "2진수 변환",
+    "prompt": "10010(2)보다 정확히 1 큰 2진수는?",
+    "answer": "10011",
+    "explanation": "이진수에 1을 더한 결과는 10011입니다.",
+    "difficulty": "초급",
+    "week": 1,
+    "source": "TypeBook 2.4",
+    "sourceType": "교재 기반",
+    "legacyId": 22,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.4",
+      "basis": "정수·소수의 진법 변환과 위치 가중치"
+    },
+    "id": 62,
+    "uid": "0d5ba505acd3da3c",
+    "review": {
+      "focus": "이진 증가 연산",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 62
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "16진수 변환",
+    "prompt": "2진수 00101101와 같은 16진수는?",
+    "answer": "2D",
+    "explanation": "4비트씩 묶으면 2D입니다.",
+    "difficulty": "초급",
+    "week": 1,
+    "source": "TypeBook 2.3·2.4",
+    "sourceType": "교재 기반",
+    "legacyId": 23,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.3·2.4",
+      "basis": "16진수 한 자리와 4비트, 진법 변환"
+    },
+    "id": 63,
+    "uid": "dfa5634487acdc0c",
+    "review": {
+      "focus": "4비트 묶음으로 16진 표기",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 63
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "비트와 용량",
+    "difficulty": "초급",
+    "prompt": "주소선이 11개라면 구분 가능한 주소 개수는?",
+    "answer": "2048 — n개의 주소선은 2^n개 주소를 구분합니다.",
+    "explanation": "",
+    "week": 1,
+    "source": "TypeBook 2.2·6.3",
+    "sourceType": "교재 기반",
+    "legacyId": 24,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.2·6.3",
+      "basis": "비트·바이트와 메모리 주소·용량"
+    },
+    "grading": "self",
+    "id": 64,
+    "uid": "cfc659c8647f6ee8",
+    "review": {
+      "focus": "주소선 수와 주소 개수",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 64
+    }
+  },
+  {
+    "topic": "2진수 변환",
+    "difficulty": "초급",
+    "prompt": "10진수 24을 2진수로 변환하세요.",
+    "answer": "11000 — 2로 나눈 나머지를 역순으로 읽으면 11000입니다.",
+    "explanation": "",
+    "week": 1,
+    "source": "TypeBook 2.4",
+    "sourceType": "교재 기반",
+    "legacyId": 34,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.4",
+      "basis": "정수·소수의 진법 변환과 위치 가중치"
+    },
+    "grading": "self",
+    "id": 71,
+    "uid": "abf78ba4efee3dc2",
+    "review": {
+      "focus": "정수 반복 나눗셈 진법 변환",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 71
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "8비트 10000000을 반전하고 1을 더했는데 같은 비트열이 나왔다. 부호 반전 실패를 표현 범위로 설명하시오.",
+    "answer": "01111111+1 = 10000000이다. -128의 반대값+128은 8비트 2의 보수 범위 밖이므로 같은 폭의 부호 반전이 오버플로한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "key": "unibook-extension-14"
+    },
+    "id": 139,
+    "uid": "b3db44cbed32d1d8",
+    "review": {
+      "focus": "최소 음수의 부호 반전 예외",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 139
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "11110000을 16비트로 확장할 때 unsigned와 2의 보수 각각의 확장 결과를 쓰고 차이를 설명하시오.",
+    "answer": "unsigned 240은 0000000011110000, signed -16은 1111111111110000이다. 값의 보존에는 원래 표현 방식에 따른 0확장 또는 부호 확장이 필요하다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "key": "unibook-extension-15"
+    },
+    "id": 140,
+    "uid": "1048b881c831d44a",
+    "review": {
+      "focus": "자료형별 폭 확장과 값 보존",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 140
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "8비트 11111111+00000001의 하위 8비트 결과와 최종 캐리를 구하시오. 두 피연산자를 2의 보수로 해석했을 때 부호 오버플로가 있는지도 쓰시오.",
+    "answer": "결과 00000000, C = 1, V = 0이다. unsigned 255+1은 범위를 넘지만 signed -1+1 = 0은 정상이다. 캐리와 signed overflow는 서로 다른 조건이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "key": "unibook-extension-16"
+    },
+    "id": 141,
+    "uid": "7ecbd069cda2eca0",
+    "review": {
+      "focus": "캐리와 부호 오버플로 분리",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 141
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "부동소수점에서 큰 x에 1을 더했는데 결과가 x인 이유를 인접 표현값 간격으로 설명하시오.",
+    "answer": "지수가 커지면 고정 유효비트 수에서 값의 간격도 커진다. 1이 반 간격보다 작으면 합이 반올림되어 x에 머무를 수 있다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "key": "unibook-extension-18"
+    },
+    "id": 143,
+    "uid": "519a8aa173327f82",
+    "review": {
+      "focus": "큰 실수에서 작은 증가량 소실",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 143
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "부호 1비트·지수 4비트·가수 5비트이고 bias는 7이다. 지수 패턴 0000과 1111은 예약되어 있다. 최소 양의 정규수와 최대 유한수를 구하시오.",
+    "answer": "최소는 0 0001 00000 = 2⁻⁶ = 1/64. 최대는 0 1110 11111 = (2-2⁻⁵)×2⁷ = 252이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "key": "unibook-extension-19"
+    },
+    "id": 144,
+    "uid": "963fd6634c1c6a9d",
+    "review": {
+      "focus": "예약 지수를 제외한 정규수 경계",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 144
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "0.5와 0.1 중 유한한 2진 소수로 정확히 나타낼 수 있는 수를 고르고 이유를 설명하시오.",
+    "answer": "0.5 = 1/2는 분모가 2의 거듭제곱이라 유한하다. 0.1 = 1/10은 분모에 5가 남아 무한 반복한다. 일반적으로 기약분수 분모가 2의 거듭제곱이어야 유한 이진 소수다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "key": "unibook-extension-20"
+    },
+    "id": 145,
+    "uid": "859fd5da7b0ec145",
+    "review": {
+      "focus": "유한 이진 소수의 분모 조건",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 145
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "ASCII '9'에 1을 더해 문자로 출력하면 '10'이 안 되는 이유와 올바른 두 자리 출력 절차를 쓰시오.",
+    "answer": "0x39+1 = 0x3A로 콜론이 된다. 문자를 정수 9로 해석해 10을 계산한 뒤 십의 자리'1', 일의 자리'0' 두 문자로 인코딩해야 한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.7",
+      "key": "unibook-extension-22"
+    },
+    "id": 147,
+    "uid": "47b42e8adf0f3fbc",
+    "review": {
+      "focus": "숫자 문자 코드와 자릿수 출력 구별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 147
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "초급",
+    "topic": "표현과 구조",
+    "prompt": "10000000이 부호와 절대값에서는-0, 2의 보수에서는-128인 이유를 0의 중복과 연결해 설명하시오.",
+    "answer": "부호와 절대값은 부호 1·크기 0으로-0을 만든다. 2의 보수는 0이 하나이므로 그 패턴을 추가 음수에 사용해 범위가-128~127이 된다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "key": "unibook-extension-23"
+    },
+    "id": 148,
+    "uid": "28810f97390dc250",
+    "review": {
+      "focus": "음의 영과 2의 보수 범위 비대칭",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 148
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "중급",
+    "topic": "표현과 구조",
+    "prompt": "총 비트 수가 같은 두 형식에서 지수부를 늘리면 실수 오차가 항상 줄어드는가? 범위와 정밀도를 나누어 설명하시오.",
+    "answer": "지수부 확대는 범위를 넓히지만 fraction 비트를 줄여 정밀도를 낮춘다. 오버플로 위험은 줄어도 같은 크기에서 반올림 간격은 커질 수 있다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "key": "unibook-extension-24"
+    },
+    "id": 149,
+    "uid": "6be2e94105f8ddd4",
+    "review": {
+      "focus": "고정 비트 예산의 범위 정밀도 교환",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 149
+    }
+  },
+  {
+    "week": 2,
+    "difficulty": "상급",
+    "topic": "표현과 구조",
+    "prompt": "4자리 10의 보수 7788을 같은 값의 6자리 코드로 확장하시오. 앞에 0을 붙이는 방법이 틀리는 이유도 쓰시오.",
+    "answer": "값은 7788-10000 = -2212. 6자리 표현은 1000000-2212 = 997788이다. 007788은 양수 7788이므로 값이 달라진다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "key": "unibook-extension-25"
+    },
+    "id": 150,
+    "uid": "903335da902bbbfa",
+    "review": {
+      "focus": "10의 보수의 자릿수 확장",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 150
+    }
+  },
+  {
+    "topic": "2의 보수",
+    "difficulty": "초급",
+    "prompt": "8비트 2의 보수 11111110를 10진수로 해석하세요.",
+    "answer": "-2 — 반전 후 1을 더해 절댓값 2을 얻으므로 -2입니다.",
+    "explanation": "",
+    "week": 2,
+    "source": "TypeBook 2.5",
+    "sourceType": "교재 기반",
+    "legacyId": 128,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "basis": "보수 표현, 부호 확장, 표현 범위"
+    },
+    "grading": "self",
+    "id": 153,
+    "uid": "27018d8f904f750c",
+    "review": {
+      "focus": "2의 보수 비트열을 음수로 복원",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 153
+    }
+  },
+  {
+    "topic": "부동소수점",
+    "prompt": "부동소수점에서 “소수점의 위치 결정” 역할을 하는 부분은?",
+    "answer": "지수부",
+    "explanation": "지수부는 소수점의 위치 결정 역할을 합니다.",
+    "difficulty": "초급",
+    "week": 2,
+    "source": "TypeBook 2.6",
+    "sourceType": "교재 기반",
+    "legacyId": 129,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "basis": "부호, 지수, 유효숫자와 hidden bit"
+    },
+    "id": 154,
+    "uid": "88bc949dcf2f910f",
+    "review": {
+      "focus": "부동소수점 지수부 역할",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 154
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "2의 보수",
+    "difficulty": "초급",
+    "prompt": "6비트 2의 보수의 최솟값은?",
+    "answer": "-32",
+    "explanation": "최솟값은 -2^(n-1)입니다.",
+    "week": 2,
+    "source": "TypeBook 2.5",
+    "sourceType": "교재 기반",
+    "legacyId": 133,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "basis": "보수 표현, 부호 확장, 표현 범위"
+    },
+    "id": 158,
+    "uid": "698bbba00bbcfeda",
+    "review": {
+      "focus": "비트 수로 2의 보수 최소값 산정",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 158
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "부동소수점",
+    "prompt": "부동소수점의 가수부(fraction)는 어떤 정보를 저장하는가?",
+    "answer": "유효 숫자 저장",
+    "explanation": "가수부는 유효 숫자 저장 역할을 합니다.",
+    "difficulty": "초급",
+    "week": 2,
+    "source": "TypeBook 2.6",
+    "sourceType": "교재 기반",
+    "legacyId": 134,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "basis": "부호, 지수, 유효숫자와 hidden bit"
+    },
+    "id": 159,
+    "uid": "2d009cc2f28d87ee",
+    "review": {
+      "focus": "부동소수점 fraction의 역할",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 159
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "부동소수점",
+    "prompt": "부동소수점에서 “정규화된 맨 앞의 1을 생략” 역할을 하는 부분은?",
+    "answer": "hidden bit",
+    "explanation": "hidden bit는 정규화된 맨 앞의 1을 생략 역할을 합니다.",
+    "difficulty": "초급",
+    "week": 2,
+    "source": "TypeBook 2.6",
+    "sourceType": "교재 기반",
+    "legacyId": 139,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "basis": "부호, 지수, 유효숫자와 hidden bit"
+    },
+    "id": 164,
+    "uid": "3b02d22e700a64b2",
+    "review": {
+      "focus": "정규수 hidden bit의 전제",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 164
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "부동소수점",
+    "prompt": "부동소수점에서 부호 비트는 어떤 정보를 나타내는가?",
+    "answer": "수의 양수·음수 결정",
+    "explanation": "부호 비트는 수의 양수·음수 결정 역할을 합니다.",
+    "difficulty": "초급",
+    "week": 2,
+    "source": "TypeBook 2.6",
+    "sourceType": "교재 기반",
+    "legacyId": 144,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "basis": "부호, 지수, 유효숫자와 hidden bit"
+    },
+    "id": 169,
+    "uid": "38f92d2f9f5a4c33",
+    "review": {
+      "focus": "부호 비트의 의미",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 169
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "2의 보수",
+    "difficulty": "초급",
+    "prompt": "-6을 8비트 2의 보수로 표현하세요.",
+    "answer": "11111010",
+    "explanation": "절댓값을 반전하고 1을 더하면 11111010입니다.",
+    "week": 2,
+    "source": "TypeBook 2.5",
+    "sourceType": "교재 기반",
+    "legacyId": 148,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5",
+      "basis": "보수 표현, 부호 확장, 표현 범위"
+    },
+    "id": 173,
+    "uid": "fd4c471d18df4e86",
+    "review": {
+      "focus": "음수를 반전과 더하기로 인코딩",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 173
+    },
+    "grading": "self"
+  },
+  {
+    "week": 3,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "가감산기에서 B의 XOR만 Sub에 연결하고 최초 Cin을 0에 고정했다. Sub = 1의 실제 계산과 수정 방법을 쓰시오.",
+    "answer": "A+B′ = A-B-1(mod2ⁿ)이다. 2의 보수의+1이 빠졌다. 최초 Cin을 Sub에 연결한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 4.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "4.3",
+      "key": "unibook-extension-28"
+    },
+    "id": 277,
+    "uid": "cea2cb93f5d3dd8a",
+    "review": {
+      "focus": "가감산기의 누락된 최초 캐리 진단",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 277
+    },
+    "diagram": "missing-carry"
+  },
+  {
+    "week": 3,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "캐리 식 AB+ACin+BCin과 AB+(A XOR B)Cin이 같음을 입력 경우로 증명하시오.",
+    "answer": "A = B = 1이면 AB가 1, A = B = 0이면 두 식 모두 0이다. A≠B이면 캐리가 Cin과 같으므로 XOR 항으로 표현할 수 있다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 4.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "4.3",
+      "key": "unibook-extension-29"
+    },
+    "id": 278,
+    "uid": "a3d54b619e0defd0",
+    "review": {
+      "focus": "전가산기 캐리 식의 경우 분할 증명",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 278
+    },
+    "table": [
+      [
+        "A",
+        "B",
+        "AB+ACin+BCin",
+        "AB+(A XOR B)Cin"
+      ],
+      [
+        "0",
+        "0",
+        "?",
+        "?"
+      ],
+      [
+        "0",
+        "1",
+        "?",
+        "?"
+      ],
+      [
+        "1",
+        "0",
+        "?",
+        "?"
+      ],
+      [
+        "1",
+        "1",
+        "?",
+        "?"
+      ]
+    ]
+  },
+  {
+    "week": 3,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "D 플립플롭으로 T 플립플롭을 구현할 때 D의 식을 유도하고 검증하시오.",
+    "answer": "D = Q XOR T. T = 0은 D = Q로 유지, T = 1은 D = Q′로 다음 에지에서 반전한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "5",
+      "key": "unibook-extension-30"
+    },
+    "id": 279,
+    "uid": "a7d8ba84c1a2e4b2",
+    "review": {
+      "focus": "D 소자로 유지와 토글 구현",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 279
+    },
+    "diagram": "d-to-t"
+  },
+  {
+    "week": 3,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "JK 플립플롭으로 D 플립플롭을 구현할 J, K 연결을 구하고 원치 않는 토글이 없는지 검증하시오.",
+    "answer": "J = D, K = D′. D = 0은 01로 리셋, D = 1은 10으로 설정된다. JK = 11은 발생하지 않아 원치 않는 토글이 없다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "5",
+      "key": "unibook-extension-31"
+    },
+    "id": 280,
+    "uid": "1f844f47978ef20f",
+    "review": {
+      "focus": "JK 소자로 D 동작 구현",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 280
+    },
+    "diagram": "jk-to-d"
+  },
+  {
+    "week": 3,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "NOR SR 래치의 S = R = 1을 동시에 해제하면 이전 상태로 복귀한다는 주장을 검토하시오.",
+    "answer": "금지 상태에서는 두 출력이 0으로 이전 상태를 정상 보존하지 않는다. 해제 후 지연 차이·경합에 따라 상태가 정해져 이전 상태 복귀를 보장할 수 없다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "5",
+      "key": "unibook-extension-35"
+    },
+    "id": 284,
+    "uid": "bfece7937988df45",
+    "review": {
+      "focus": "SR 금지 상태 해제 후 불확정성",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 284
+    },
+    "diagram": "nor-sr"
+  },
+  {
+    "topic": "논리회로",
+    "prompt": "설명이 “하나 이상의 입력이 1이면 1”인 논리 게이트는?",
+    "answer": "OR이다. 입력 00, 01, 10, 11에서 출력은 각각 0, 1, 1, 1이다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 3,
+    "source": "TypeBook 3·4",
+    "sourceType": "교재 기반",
+    "legacyId": 255,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "3·4",
+      "basis": "게이트 진리표, 불 대수와 가산기"
+    },
+    "grading": "self",
+    "id": 289,
+    "uid": "6d21b49248cf418e",
+    "review": {
+      "focus": "OR 조건의 진리표",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 289
+    },
+    "diagram": "or"
+  },
+  {
+    "topic": "순서논리회로",
+    "prompt": "“한 비트 데이터를 클록에 맞춰 저장”에 해당하는 순서회로는?",
+    "answer": "D 플립플롭이다. 활성 클록 에지에서 D를 Q에 저장하고 다음 활성 에지까지 상태를 유지한다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 3,
+    "source": "TypeBook 5",
+    "sourceType": "교재 기반",
+    "legacyId": 256,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "5",
+      "basis": "SR·D·JK·T와 비동기 카운터"
+    },
+    "grading": "self",
+    "id": 290,
+    "uid": "c03ce150f5628ba5",
+    "review": {
+      "focus": "클록 에지에서 D 저장",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 290
+    },
+    "diagram": "d-ff"
+  },
+  {
+    "topic": "논리회로",
+    "prompt": "설명이 “입력을 반전”인 논리 게이트는?",
+    "answer": "NOT이다. 입력 0은 1, 입력 1은 0으로 반전한다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 3,
+    "source": "TypeBook 3·4",
+    "sourceType": "교재 기반",
+    "legacyId": 259,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "3·4",
+      "basis": "게이트 진리표, 불 대수와 가산기"
+    },
+    "grading": "self",
+    "id": 293,
+    "uid": "2e371390a32a302a",
+    "review": {
+      "focus": "NOT 입력 반전",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 293
+    },
+    "diagram": "not"
+  },
+  {
+    "topic": "논리회로",
+    "prompt": "설명이 “두 입력이 모두 1일 때만 1”인 논리 게이트는?",
+    "answer": "AND이다. 입력 00, 01, 10, 11에서 출력은 각각 0, 0, 0, 1이다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 3,
+    "source": "TypeBook 3·4",
+    "sourceType": "교재 기반",
+    "legacyId": 261,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "3·4",
+      "basis": "게이트 진리표, 불 대수와 가산기"
+    },
+    "grading": "self",
+    "id": 295,
+    "uid": "eee9e6fddfbe644b",
+    "review": {
+      "focus": "AND 동시 만족 조건",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 295
+    },
+    "diagram": "and"
+  },
+  {
+    "week": 4,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "부호 1비트·지수 3비트·가수 4비트이고 bias가 3인 정규수 형식으로 +3.25를 저장하고 역산하여 검산하시오.",
+    "answer": "3.25 = 1.101₂×2¹. 부호 0, 지수 100, fraction 1010으로 0 100 1010. 역산은 1.625×2 = 3.25이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "key": "unibook-extension-37"
+    },
+    "id": 385,
+    "uid": "72046f5309bab60d",
+    "review": {
+      "focus": "정규화 후 부동소수점 인코딩",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 385
+    }
+  },
+  {
+    "week": 4,
+    "difficulty": "초급",
+    "topic": "회로 응용",
+    "prompt": "버튼이 눌린 사실을 계속 기억하는 기능을 조합회로만으로 구현할 수 없는 이유를 반례로 설명하시오.",
+    "answer": "현재 버튼 0은 '누른 적 없음'과 '눌렀다가 놓음' 모두에서 가능하다. 같은 현재 입력에 다른 출력이 필요하므로 상태 저장 래치·플립플롭이 필요하다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 4.2·5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "4.2·5",
+      "key": "unibook-extension-38"
+    },
+    "id": 386,
+    "uid": "c289c55c215cce06",
+    "review": {
+      "focus": "현재 입력만으로 과거 사건 판단 불가",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 386
+    }
+  },
+  {
+    "week": 4,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "F = AB+A′B+AC를 간소화하고 삭제된 항의 입력 조합이 왜 누락되지 않는지 설명하시오.",
+    "answer": "AB+A′B = B이므로 F = B+AC. B = 1인 모든 경우는 B가 포함하고 B = 0일 때 필요한 AC만 남는다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 4.2 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "4.2",
+      "key": "unibook-extension-39"
+    },
+    "id": 387,
+    "uid": "6add0f5047797dd8",
+    "review": {
+      "focus": "보수 항 결합에 의한 식 간소화",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 387
+    },
+    "table": [
+      [
+        "식",
+        "간소화 결과"
+      ],
+      [
+        "AB + A′B + AC",
+        "?"
+      ]
+    ]
+  },
+  {
+    "week": 4,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "4비트 2의 보수 3-(-6)을 B 반전과 Cin까지 추적하고 오버플로를 판정하시오.",
+    "answer": "A0011, B1010, B′0101, Cin 1로 합 1001. signed -7로 해석되지만 수학적 결과 9는 범위 밖이므로 V = 1이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5·4.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5·4.3",
+      "key": "unibook-extension-40"
+    },
+    "id": 388,
+    "uid": "8e709f86e24e2e52",
+    "review": {
+      "focus": "뺄셈 가산기 추적과 범위 검증",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 388
+    },
+    "diagram": "adder"
+  },
+  {
+    "week": 4,
+    "difficulty": "초급",
+    "topic": "회로 응용",
+    "prompt": "80₁₆을 보고 무조건 양수 128이라고 답한 풀이를 평가하시오. 자료형 누락의 영향을 쓰시오.",
+    "answer": "8비트 unsigned이면 128, 2의 보수이면-128이다. 16진수는 비트열 표기일 뿐 signed 여부를 정하지 않는다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.4·2.5 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.4·2.5",
+      "key": "unibook-extension-42"
+    },
+    "id": 390,
+    "uid": "688be7bdeddcc963",
+    "review": {
+      "focus": "16진 표기와 자료형의 독립성",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 390
+    }
+  },
+  {
+    "week": 4,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "서로 다른 부동소수점 형식의 비트열 두 개가 같은 값인지 확인하려면 어떤 형식 정보를 알아야 하는가? 복원 절차를 쓰시오.",
+    "answer": "부호·지수·fraction 배치, bias, hidden bit와 특수 지수 규칙이 필요하다. 각 형식의 부호×유효숫자×2의 지수를 복원해 비교한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.6",
+      "key": "unibook-extension-43"
+    },
+    "id": 391,
+    "uid": "8b21fd622c1643df",
+    "review": {
+      "focus": "부동소수점 형식 정보 누락 식별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 391
+    }
+  },
+  {
+    "week": 4,
+    "difficulty": "중급",
+    "topic": "회로 응용",
+    "prompt": "덧셈 결과의 Z 플래그를 모든 비트 XOR로 만들면 안 되는 이유를 반례와 올바른 식으로 설명하시오.",
+    "answer": "0011은 XOR 0이지만 영이 아니다. Z = (S₃+S₂+S₁+S₀)′로 모든 결과 비트가 0일 때만 1이어야 한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 4.2·4.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "4.2·4.3",
+      "key": "unibook-extension-44"
+    },
+    "id": 392,
+    "uid": "c4bed5a8a2cbc6d6",
+    "review": {
+      "focus": "영 검출에서 패리티 사용 오류",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 392
+    },
+    "diagram": "zero-detector"
+  },
+  {
+    "week": 5,
+    "difficulty": "중급",
+    "topic": "CPU와 메모리",
+    "prompt": "행 우선 배열을 열 방향으로 순회하면 같은 연산 수인데 느릴 수 있다. 캐시 블록 활용으로 설명하시오.",
+    "answer": "행 방향은 연속 주소로 한 블록의 이웃 원소를 재사용한다. 열 방향은 큰 간격의 주소를 읽어 가져온 블록 대부분을 안 쓰고 미스를 늘릴 수 있다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.3",
+      "key": "unibook-extension-49"
+    },
+    "id": 516,
+    "uid": "73315eda6a38a393",
+    "review": {
+      "focus": "배열 순회 순서와 공간 지역성",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 516
+    }
+  },
+  {
+    "week": 5,
+    "difficulty": "중급",
+    "topic": "CPU와 메모리",
+    "prompt": "빈 캐시는 4바이트 블록 두 개를 모두 보관할 수 있고 교체는 일어나지 않는다. 주소 0, 1, 2, 3, 4, 0을 순서대로 읽을 때 각 접근의 적중 여부와 전체 적중률을 쓰시오.",
+    "answer": "0미스, 1·2·3히트, 4미스, 마지막 0히트.4/6 = 2/3이다. 블록 범위는 0~3, 4~7이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.3",
+      "key": "unibook-extension-50"
+    },
+    "id": 517,
+    "uid": "12cd698b9eafb72f",
+    "review": {
+      "focus": "블록 반입 후 후속 접근 적중 추적",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 517
+    }
+  },
+  {
+    "week": 5,
+    "difficulty": "중급",
+    "topic": "CPU와 메모리",
+    "prompt": "PC가 1000을 가리키고 있으며, 해당 위치의 3바이트 분기 명령은 주소 2000으로 이동한다. 인출 직후와 실행 직후의 PC 값을 구분하시오.",
+    "answer": "순차 다음 주소는 1003이므로 인출 후 1003이 될 수 있다. 분기 실행은 PC를 2000으로 덮어쓴다. 갱신 시점을 구분한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.2 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2",
+      "key": "unibook-extension-51"
+    },
+    "id": 518,
+    "uid": "db07579642082391",
+    "review": {
+      "focus": "인출과 분기 실행 시점의 PC 구별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 518
+    }
+  },
+  {
+    "week": 5,
+    "difficulty": "초급",
+    "topic": "CPU와 메모리",
+    "prompt": "SRAM도 휘발성이므로 refresh가 필요하다는 주장을 DRAM과 저장 회로 차이로 반박하시오.",
+    "answer": "휘발성은 전원 차단 때 소실됨을 뜻한다. SRAM은 전원이 있으면 쌍안정 회로로 유지한다. DRAM은 축전기 전하 누설 때문에 전원이 있어도 refresh가 필요하다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.3",
+      "key": "unibook-extension-52"
+    },
+    "id": 519,
+    "uid": "01be55a5daf2e2d4",
+    "review": {
+      "focus": "휘발성과 DRAM 리프레시 구별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 519
+    }
+  },
+  {
+    "week": 5,
+    "difficulty": "중급",
+    "topic": "CPU와 메모리",
+    "prompt": "4단계 파이프라인이 클록마다 1명령을 완료하면 각 명령도 1클록에 끝나는가? 첫 명령과 정상 상태를 비교하시오.",
+    "answer": "첫 명령의 지연은 4클록이다. 채워진 뒤 각 단계에서 다른 명령이 진행되어 매 클록 하나씩 완료된다. 지연과 처리량은 다르다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.2 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2",
+      "key": "unibook-extension-53"
+    },
+    "id": 520,
+    "uid": "58b663141fb813eb",
+    "review": {
+      "focus": "파이프라인 처리량과 지연 구별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 520
+    }
+  },
+  {
+    "week": 5,
+    "difficulty": "중급",
+    "topic": "CPU와 메모리",
+    "prompt": "주소 버스는 16비트, 데이터 버스는 8비트이며 바이트 단위로 주소를 지정한다. 최대 주소 공간과 16비트 워드를 읽는 데 필요한 최소 데이터 전송 횟수를 구하시오.",
+    "answer": "2¹⁶바이트 = 64KiB, 워드 읽기에 최소 2회 전송이다. 주소 폭과 데이터 폭은 별개다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.3",
+      "key": "unibook-extension-54"
+    },
+    "id": 521,
+    "uid": "fd4e4c98e18017ea",
+    "review": {
+      "focus": "주소 폭과 전송 폭 독립 계산",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 521
+    }
+  },
+  {
+    "week": 5,
+    "difficulty": "중급",
+    "topic": "CPU와 메모리",
+    "prompt": "거대한 배열을 무작위 순서로 한 번씩 읽는다. 캐시를 조금 늘려도 효과가 작을 수 있는 이유를 두 지역성으로 설명하시오.",
+    "answer": "재사용이 없어 시간적 지역성이 약하고 이웃을 곧 읽지 않아 공간적 지역성도 약하다. 작업 집합이 캐시보다 훨씬 크면 작은 용량 증가는 미스를 거의 줄이지 못한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 6.3 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.3",
+      "key": "unibook-extension-56"
+    },
+    "id": 523,
+    "uid": "1bfa2f35b87d6a2d",
+    "review": {
+      "focus": "단회 무작위 접근의 지역성 한계",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 523
+    }
+  },
+  {
+    "topic": "CPU와 레지스터",
+    "prompt": "“현재 실행 중인 명령어”를 저장하는 레지스터는?",
+    "answer": "IR — IR는 현재 실행 중인 명령어를 저장합니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 5,
+    "source": "TypeBook 6.2",
+    "sourceType": "교재 기반",
+    "legacyId": 507,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2",
+      "basis": "CPU 레지스터와 명령어 수행 사이클"
+    },
+    "grading": "self",
+    "id": 530,
+    "uid": "b5e9ac8f07f0b8fe",
+    "review": {
+      "focus": "IR의 보관 대상",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 530
+    }
+  },
+  {
+    "topic": "메모리",
+    "prompt": "“실행 중인 프로그램과 데이터 저장”에 해당하는 저장장치는?",
+    "answer": "RAM — RAM의 핵심 역할은 실행 중인 프로그램과 데이터 저장입니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 5,
+    "source": "TypeBook 6.3",
+    "sourceType": "교재 기반",
+    "legacyId": 511,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.3",
+      "basis": "메모리 계층과 캐시 적중률"
+    },
+    "grading": "self",
+    "id": 534,
+    "uid": "a78fa8d4d7e8bd75",
+    "review": {
+      "focus": "실행 중 프로그램을 두는 기억장치",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 534
+    }
+  },
+  {
+    "topic": "CPU와 레지스터",
+    "prompt": "“메모리와 주고받는 데이터”를 저장하는 레지스터는?",
+    "answer": "MBR",
+    "explanation": "MBR는 메모리와 주고받는 데이터를 저장합니다.",
+    "difficulty": "초급",
+    "week": 5,
+    "source": "TypeBook 6.2",
+    "sourceType": "교재 기반",
+    "legacyId": 513,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2",
+      "basis": "CPU 레지스터와 명령어 수행 사이클"
+    },
+    "id": 536,
+    "uid": "6f45814e309720eb",
+    "review": {
+      "focus": "MBR의 보관 대상",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 536
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "CPU와 레지스터",
+    "prompt": "누산기 방식 CPU에서 ALU가 계산한 결과를 이어지는 연산에 사용하기 위해 보관하는 레지스터는?",
+    "answer": "누산기(ACC 또는 A)이다.",
+    "explanation": "ACC는 연산 결과를 저장합니다.",
+    "difficulty": "초급",
+    "week": 5,
+    "source": "TypeBook 6.2",
+    "sourceType": "교재 기반",
+    "legacyId": 516,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2",
+      "basis": "CPU 레지스터와 명령어 수행 사이클"
+    },
+    "id": 539,
+    "uid": "e7d684a7352b1cae",
+    "review": {
+      "focus": "누산기의 연산 결과 보관",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 539
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "CPU와 레지스터",
+    "prompt": "“다음에 실행할 명령어 주소”를 저장하는 레지스터는?",
+    "answer": "PC — PC는 다음에 실행할 명령어 주소를 저장합니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 5,
+    "source": "TypeBook 6.2",
+    "sourceType": "교재 기반",
+    "legacyId": 519,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2",
+      "basis": "CPU 레지스터와 명령어 수행 사이클"
+    },
+    "grading": "self",
+    "id": 542,
+    "uid": "24032863bfb89fb5",
+    "review": {
+      "focus": "PC의 주소 보관 역할",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 542
+    }
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "A = AB00일 때 LDBYTEA로 41을 읽었다. 이 값을 정수 65로 사용하려는 코드가 실패하는 이유와 수정을 쓰시오.",
+    "answer": "하위 바이트만 갱신되어 A = AB41이 된다. 먼저 LDA 0,i로 A를 초기화하고 바이트를 읽어 0041로 만들어야 한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.3·7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "key": "unibook-extension-57"
+    },
+    "id": 629,
+    "uid": "5b17cc580841c980",
+    "review": {
+      "focus": "바이트 적재 후 상위 바이트 잔존",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 629
+    },
+    "code": "; 초기 A=0xAB00, [ch]=0x41\nLDBYTEA ch,d"
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "메모리 0100 = 12, 0101 = 34이고 A초기값 0이다. LDA와 LDBYTEA를 0100에 적용한 결과와 접근폭을 비교하시오.",
+    "answer": "LDA는 두 바이트 1234를 읽는다. LDBYTEA는 한 바이트 12만 읽어 0012가 된다. Pep/8은 big-endian이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.3·7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "key": "unibook-extension-58"
+    },
+    "id": 630,
+    "uid": "7f3ab9de15a8f4ba",
+    "review": {
+      "focus": "워드 읽기와 바이트 읽기 폭 비교",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 630
+    },
+    "code": "; [0x0100]=0x12, [0x0101]=0x34\n; 각각 A=0에서 독립 실행\nLDA 0x0100,d\nLDBYTEA 0x0100,d"
+  },
+  {
+    "week": 6,
+    "difficulty": "초급",
+    "topic": "코드 응용",
+    "prompt": "심볼 x의 주소 0020, 내용 0007일 때 LDA x,i와 LDA x,d를 비교하시오.",
+    "answer": "i는 심볼값인 주소 0020 자체를 A에 적재한다. d는 그 주소의 워드 0007을 읽는다. 주소와 내용의 차이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6",
+      "key": "unibook-extension-59"
+    },
+    "id": 631,
+    "uid": "3c0cc06b8c259528",
+    "review": {
+      "focus": "심볼 주소 즉시값과 메모리 내용 구별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 631
+    }
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "ch를 .BLOCK 1로 확보하고 STA ch,d로 쓰면 뒤 변수가 바뀔 수 있다. 원인과 수정 명령을 쓰시오.",
+    "answer": "STA는 2바이트라 다음 주소까지 덮어쓴다. 한 바이트 문자는 STBYTEA ch,d로 써야 한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6",
+      "key": "unibook-extension-60"
+    },
+    "id": 632,
+    "uid": "c3886fd5b2123281",
+    "review": {
+      "focus": "워드 저장에 의한 인접 바이트 덮어쓰기",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 632
+    },
+    "code": "ch: .BLOCK 1\nnext: .BLOCK 1\n; A의 두 바이트가 ch부터 기록됨\nSTA ch,d"
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "기계어 앞에 3바이트 명령을 삽입하고 피연산자 주소를 수정하지 않았다. 문법 오류 없이 오동작하는 이유와 심볼의 장점을 설명하시오.",
+    "answer": "배치가 이동했는데 숫자 주소가 그대로여서 다른 데이터를 읽거나 잘못 분기한다. 심볼을 쓰면 어셈블러가 재배치된 주소를 계산한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.4·7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.4·7.6",
+      "key": "unibook-extension-61"
+    },
+    "id": 633,
+    "uid": "8f6445cf86c61184",
+    "review": {
+      "focus": "코드 삽입 후 숫자 주소 재배치",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 633
+    }
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "문자열 AB의 종료 0바이트를 생략하고 STRO로 출력했다. 출력 범위가 예측되지 않는 이유와 수정 방법을 쓰시오.",
+    "answer": "STRO는 0바이트까지 계속 읽는다. 뒤 메모리가 출력될 수 있으므로 문자열 뒤에 0바이트를 명시한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6",
+      "key": "unibook-extension-62"
+    },
+    "id": 634,
+    "uid": "5c190616b34aca1f",
+    "review": {
+      "focus": "문자열 종료 바이트 누락",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 634
+    },
+    "code": "msg: .ASCII \"AB\"\n; 마지막에 0 바이트가 없음\nSTRO msg,d"
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "상수 .EQUATE 10과 저장공간 .WORD 10의 심볼을 ADDA에 쓸 때 적절한 모드와 이유를 쓰시오.",
+    "answer": "EQUATE 심볼값은 10이므로 i 모드다. WORD 심볼은 10을 저장한 주소이므로 d 모드로 내용을 읽는다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6",
+      "key": "unibook-extension-63"
+    },
+    "id": 635,
+    "uid": "ee91b5c077d09929",
+    "review": {
+      "focus": "EQUATE 상수와 WORD 변수의 모드 선택",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 635
+    }
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "주소 a의 두 바이트가 00 FF다. DECO a,d와 CHARO a,d의 접근 범위와 출력 해석을 비교하시오.",
+    "answer": "DECO는 워드 00FF를 정수 255로 출력한다. CHARO는 주소 a의 한 바이트 00을 문자로 출력하므로 보이는 글자가 없을 수 있다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.3·7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "key": "unibook-extension-64"
+    },
+    "id": 636,
+    "uid": "e9225da8e9d007a8",
+    "review": {
+      "focus": "같은 주소의 정수와 문자 출력 해석",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 636
+    }
+  },
+  {
+    "week": 6,
+    "difficulty": "초급",
+    "topic": "코드 응용",
+    "prompt": "LDA 4,i;ADDA 5,i;STOP 후 메모리 sum이 9라고 결론낼 수 있는가? 필요한 추가 명령을 쓰시오.",
+    "answer": "A만 9가 된다. sum에 저장하려면 STA sum,d가 필요하다. 레지스터 계산이 자동으로 변수 메모리를 바꾸지 않는다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6",
+      "key": "unibook-extension-65"
+    },
+    "id": 637,
+    "uid": "ba6a1724c0b5d070",
+    "review": {
+      "focus": "누산기 계산과 메모리 저장의 구별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 637
+    },
+    "code": "LDA 4,i\nADDA 5,i\nSTOP"
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "0000부터 C0 00 04, 70 00 05, E1 00 20, 00이 놓인다. 각 명령 주소와 종료 후 0020·0021의 값을 구하시오.",
+    "answer": "주소는 0000, 0003, 0006, 0009다. A = 9를 저장하므로 0020 = 00, 0021 = 09다. STOP은 1바이트이고 앞 세 명령은 3바이트다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.3·7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "key": "unibook-extension-67"
+    },
+    "id": 639,
+    "uid": "7ab1f5aac0de5eb4",
+    "review": {
+      "focus": "가변 명령 길이와 저장 결과 추적",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 639
+    },
+    "code": "0000: C0 00 04\n0003: 70 00 05\n0006: E1 00 20\n0009: 00"
+  },
+  {
+    "week": 6,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "ASCII 대문자 코드에 32를 더해 소문자로 바꾸는 코드를 모든 입력 문자에 적용했다. 입력이 A와 0일 때의 출력과 필요한 입력 검사를 쓰시오.",
+    "answer": "A(65)는 a(97)가 되지만 숫자 문자 0(48)은 P(80)가 된다. A~Z 범위인지 먼저 확인한 경우에만 32를 더해야 한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6",
+      "key": "unibook-extension-69"
+    },
+    "id": 641,
+    "uid": "24790b6fe65537aa",
+    "review": {
+      "focus": "문자 코드 이동의 입력 범위 제한",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 641
+    }
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8에서 “누산기 값을 메모리에 저장” 명령어는?",
+    "answer": "STA — STA는 누산기 값을 메모리에 저장 명령입니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 626,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "grading": "self",
+    "id": 642,
+    "uid": "c2baca4edd6b40bf",
+    "review": {
+      "focus": "STA 저장 명령 식별",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 642
+    }
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8 명령어 ADDA의 기능은?",
+    "answer": "누산기에 값을 더함 — ADDA는 누산기에 값을 더함 명령입니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 629,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "grading": "self",
+    "id": 645,
+    "uid": "c2c05be4bfd14d5c",
+    "review": {
+      "focus": "ADDA 누산기 가산 역할",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 645
+    }
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8에서 “누산기에서 값을 뺌” 명령어는?",
+    "answer": "SUBA — SUBA는 누산기에서 값을 뺌 명령입니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 632,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "grading": "self",
+    "id": 648,
+    "uid": "0e70c9c46cfc1b0e",
+    "review": {
+      "focus": "SUBA 피연산자 차감 역할",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 648
+    }
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8 명령어 DECI의 기능은?",
+    "answer": "10진 정수 입력 — DECI는 10진 정수 입력 명령입니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 635,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "grading": "self",
+    "id": 651,
+    "uid": "26b0aff828f5d0fe",
+    "review": {
+      "focus": "DECI 정수 입력 저장",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 651
+    }
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8에서 “10진 정수 출력” 명령어는?",
+    "answer": "DECO",
+    "explanation": "DECO는 10진 정수 출력 명령입니다.",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 638,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "id": 654,
+    "uid": "b6b7e404a07c2e5f",
+    "review": {
+      "focus": "DECO 정수 출력",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 654
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8 명령어 CHARI의 기능은?",
+    "answer": "문자 입력",
+    "explanation": "CHARI는 문자 입력 명령입니다.",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 641,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "id": 656,
+    "uid": "3b17701e23567db5",
+    "review": {
+      "focus": "CHARI 문자 입력",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 656
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8에서 “문자열 출력” 명령어는?",
+    "answer": "STRO",
+    "explanation": "STRO는 문자열 출력 명령입니다.",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 644,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "id": 657,
+    "uid": "21580513e876de15",
+    "review": {
+      "focus": "STRO 문자열 출력",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 657
+    },
+    "grading": "self"
+  },
+  {
+    "topic": "Pep/8",
+    "prompt": "Pep/8 명령어 LDA의 기능은?",
+    "answer": "선택한 주소지정 방식에 따른 피연산자를 누산기 A에 적재한다. 직접 모드라면 메모리 내용을, 즉시 모드라면 명령의 피연산자 값을 읽는다.",
+    "explanation": "LDA는 메모리 값을 누산기에 적재 명령입니다.",
+    "difficulty": "초급",
+    "week": 6,
+    "source": "TypeBook 7.3·7.6",
+    "sourceType": "교재 기반",
+    "legacyId": 647,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.3·7.6",
+      "basis": "Pep/8 명령과 주소지정 방식"
+    },
+    "id": 658,
+    "uid": "645f8a1ea9683508",
+    "review": {
+      "focus": "LDA 적재 명령 역할",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 658
+    },
+    "grading": "self"
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "while(x!= 0)의 종료 분기를 CPA 0,i;BRNE end로 작성했다. 오류 원인과 올바른 명령을 쓰시오.",
+    "answer": "BRNE는 0이 아닐 때 종료하여 조건을 뒤집는다. 종료에는 BREQ end를 써서 x = 0일 때만 탈출한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-70"
+    },
+    "id": 754,
+    "uid": "429601b8bf370b92",
+    "review": {
+      "focus": "루프 종료 분기의 극성 오류",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 754
+    },
+    "code": "LDA input,d\nCPA 0,i\nBRNE end"
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "if문의 참 경로 마지막 BR endIf를 삭제하면 왜 else도 실행될 수 있는가?",
+    "answer": "CPU는 다음 주소로 진행하므로 참 경로 뒤의 else로 이어서 들어간다. 참 경로 끝에서 공통 종료 지점으로 무조건 분기해야 한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-71"
+    },
+    "id": 755,
+    "uid": "5b142f63c1bfbd19",
+    "review": {
+      "focus": "참 분기 후 else로 이어지는 낙하 실행",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 755
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "0입력까지 최대값을 찾을 때 max초기값 0이 모든 음수 입력에서 틀리는 이유와 빈 입력 처리까지 포함한 설계를 쓰시오.",
+    "answer": "첫 비센티넬 값을 max로 사용하고 이후 값과 비교한다. 첫 입력이 0이면 자료 없음으로 처리한다. 센티넬 0을 최대값 후보에 넣으면 음수 최대값을 잃는다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-72"
+    },
+    "id": 756,
+    "uid": "34b731af8588d513",
+    "review": {
+      "focus": "음수 최대값 초기화와 빈 입력",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 756
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "음이 아닌 정수 a와 b를 반복 덧셈으로 곱한다. 작은 피연산자를 반복 횟수로 선택하는 이유와 반복 횟수가 0일 때의 결과를 쓰시오.",
+    "answer": "큰 피연산자를 작은 피연산자만큼 더하면 같은 곱을 더 적은 반복으로 구한다. 반복 횟수가 0이면 덧셈을 실행하지 않고 초기 합 0을 결과로 사용한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-73"
+    },
+    "id": 757,
+    "uid": "95f0c737fc1268e7",
+    "review": {
+      "focus": "반복 곱셈의 누적식과 종료 횟수",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 757
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "16비트 signed 절댓값 합계에서 -32768 처리와 전체 누적합에 각각 어떤 범위 문제가 있는가?",
+    "answer": "+32768은 16비트 signed에 없어 NEG가 오버플로한다. 더 큰 폭이나 별도 크기 표현이 필요하다. 개별 절댓값이 표현되어도 누적합은 범위를 넘을 수 있으므로 따로 검사한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-74"
+    },
+    "id": 758,
+    "uid": "c9cecc7da22114f1",
+    "review": {
+      "focus": "절댓값과 누적합의 별개 범위 검사",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 758
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "초급",
+    "topic": "코드 응용",
+    "prompt": "초기 i = 3에서 while(i<3)와 do-while(i<3)의 본문 횟수를 비교하고 어셈블리 분기 위치로 설명하시오.",
+    "answer": "전검사는 0회, 후검사는 최소 1회다. 조건 검사를 본문 앞에 놓는지 뒤에 놓는지가 초기 거짓 조건에서 차이를 만든다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-75"
+    },
+    "id": 759,
+    "uid": "d1c0b70737f567a3",
+    "review": {
+      "focus": "전검사 후검사 반복의 최초 실행",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 759
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "대문자가 아닌 문자를 거부할 조건 ch<'A' && ch>'Z'의 오류를 반례와 올바른 조건으로 설명하시오.",
+    "answer": "한 문자가 동시에 A보다 작고 Z보다 클 수 없어 항상 거짓이다. 거부 조건은 ch<A OR ch>Z이며 어느 비교든 참이면 else로 분기한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-76"
+    },
+    "id": 760,
+    "uid": "fb859a7e55a8e057",
+    "review": {
+      "focus": "구간 바깥 조건의 논리합",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 760
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "2×3회 중첩 반복에서 내부 카운터를 처음 한 번만 0으로 초기화하면 어떻게 되는가? 수정 위치를 쓰시오.",
+    "answer": "첫 외부 반복 후 내부 카운터가 3이어서 다음 외부 반복의 내부 본문이 실행되지 않는다. 각 외부 본문 시작 때 내부 카운터를 0으로 재설정한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-77"
+    },
+    "id": 761,
+    "uid": "682c3663e0573f7b",
+    "review": {
+      "focus": "중첩 반복의 내부 초기화 위치",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 761
+    }
+  },
+  {
+    "week": 7,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "CALL 후 RET0 대신 BR main으로 복귀하면 스택에 어떤 차이가 생기는가?",
+    "answer": "CALL이 저장한 복귀 주소를 RET0가 꺼내고 SP를 복구한다. BR은 PC만 바꾸므로 스택에 복귀 주소가 남아 반복 호출 때 누적될 수 있다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6·7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "key": "unibook-extension-78"
+    },
+    "id": 762,
+    "uid": "2a1c3070ef90eb98",
+    "review": {
+      "focus": "복귀와 단순 분기의 스택 효과 차이",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 762
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "“Z = 0이면 분기”에 필요한 Pep/8 명령은?",
+    "answer": "BRNE — BRNE는 Z = 0이면 분기 기능을 합니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 751,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "grading": "self",
+    "id": 764,
+    "uid": "6d95adb41ed9699a",
+    "review": {
+      "focus": "BRNE의 Z 조건",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 764
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "Pep/8에서 오버플로 없이 A와 피연산자를 CPA로 비교했다. A가 더 작을 때 분기하는 명령은?",
+    "answer": "BRLT이다. 비교로 설정된 작음 조건을 검사해 지정 레이블로 이동한다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 754,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "grading": "self",
+    "id": 767,
+    "uid": "3bf5dbee113ca2e2",
+    "review": {
+      "focus": "BRLT의 비교 방향",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 767
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "Pep/8에서 오버플로 없이 A와 피연산자를 CPA로 비교했다. A가 더 클 때 분기하는 명령은?",
+    "answer": "BRGT이다. 같거나 작은 경우에는 해당 조건 분기를 하지 않는다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 757,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "grading": "self",
+    "id": 770,
+    "uid": "844b5765484ab44c",
+    "review": {
+      "focus": "BRGT의 비교 방향",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 770
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "BR 명령의 역할은?",
+    "answer": "무조건 분기 — BR는 무조건 분기 기능을 합니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 760,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "grading": "self",
+    "id": 773,
+    "uid": "01e29aaac1affd62",
+    "review": {
+      "focus": "조건 없는 제어 이동",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 773
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "“복귀 주소를 저장하고 함수 호출”에 필요한 Pep/8 명령은?",
+    "answer": "CALL — CALL는 복귀 주소를 저장하고 함수 호출 기능을 합니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 763,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "grading": "self",
+    "id": 776,
+    "uid": "bacfa54466e519af",
+    "review": {
+      "focus": "CALL의 복귀 주소 보존",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 776
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "RET0 명령의 역할은?",
+    "answer": "저장한 주소로 복귀 — RET는 저장한 주소로 복귀 기능을 합니다.",
+    "explanation": "",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 766,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "grading": "self",
+    "id": 779,
+    "uid": "7bbce521713c8770",
+    "review": {
+      "focus": "RET0의 복귀 동작",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 779
+    }
+  },
+  {
+    "topic": "분기와 반복",
+    "prompt": "BREQ 명령의 역할은?",
+    "answer": "Z = 1이면 분기",
+    "explanation": "BREQ는 Z = 1이면 분기 기능을 합니다.",
+    "difficulty": "초급",
+    "week": 7,
+    "source": "TypeBook 7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 790,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "basis": "분기 조건, 반복 및 서브루틴"
+    },
+    "id": 790,
+    "uid": "156a3d9af0e7cc4e",
+    "review": {
+      "focus": "BREQ의 일치 조건",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 790
+    },
+    "grading": "self"
+  },
+  {
+    "week": 8,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "매번 새 입력 묶음의 합을 구할 때 A만 0으로 초기화하면 충분한가? sum을 메모리에서 읽는 코드의 반례를 쓰시오.",
+    "answer": "메모리 sum에 이전 합이 남으면 다음 ADDA sum,d에 재사용된다. 묶음 시작 때 LDA 0,i; STA sum,d로 메모리 누적값도 초기화한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6·7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "key": "unibook-extension-82"
+    },
+    "id": 880,
+    "uid": "f9245484bdc228b5",
+    "review": {
+      "focus": "반복 작업 사이 메모리 누적값 초기화",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 880
+    }
+  },
+  {
+    "week": 8,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "서브루틴이 A를 두 배로 바꾸지만 호출자가 원래 A도 필요하다. 호출 계약과 보존 전략을 제시하시오.",
+    "answer": "A가 결과로 변경됨을 명시하고 호출 전에 원본을 메모리나 스택에 저장한다. 호출 후 결과를 따로 보관한 다음 원본을 복원한다. 어느 쪽이 레지스터를 보존하는지 합의한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6·7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "key": "unibook-extension-83"
+    },
+    "id": 881,
+    "uid": "2d0bd1c5023ce497",
+    "review": {
+      "focus": "호출 전 레지스터 원본 보존 계약",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 881
+    }
+  },
+  {
+    "week": 8,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "A = 7FFF에서 ADDA 1,i 후 정수 출력의 값과 수학적 합을 구별하고 필요한 오류 검사를 쓰시오.",
+    "answer": "8000은 signed -32768로 출력되지만 수학적 합 32768은 범위 밖이다. V를 검사해 오류 처리하거나 더 큰 폭의 연산을 사용한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 2.5·7.6 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "2.5·7.6",
+      "key": "unibook-extension-84"
+    },
+    "id": 882,
+    "uid": "7329abc8a633fcfe",
+    "review": {
+      "focus": "16비트 산술 결과와 수학적 합 차이",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 882
+    }
+  },
+  {
+    "week": 8,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "정수 i=0에서 시작해 매 반복마다 i+=2를 실행한다. while(i!=5)는 수학적 정수 연산에서 종료되는가? i가 5 이상이면 종료하려는 목적에 맞게 조건을 고치시오.",
+    "answer": "i는 0, 2, 4, 6처럼 짝수만 지나므로 5와 같아지지 않아 종료되지 않는다. while(i<5)로 바꾸면 0, 2, 4에서 본문을 실행하고 6에서 종료한다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-87"
+    },
+    "id": 885,
+    "uid": "92953c733d063928",
+    "review": {
+      "focus": "증가 간격으로 종료값을 건너뛰는 반복문",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 885
+    }
+  },
+  {
+    "week": 8,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "종료 0바이트를 제외한 문자열 길이를 세는 루프 순서를 쓰고 빈 문자열에서 검증하시오.",
+    "answer": "바이트 읽기 → 0이면 종료 → count 증가 → 주소 1 증가 → 반복. 빈 문자열은 첫 검사에서 종료하므로 count = 0이다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.6·7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.6·7.7",
+      "key": "unibook-extension-88"
+    },
+    "id": 886,
+    "uid": "1576f06842de2ccc",
+    "review": {
+      "focus": "영 종료 문자열의 길이 계산 순서",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 886
+    }
+  },
+  {
+    "week": 8,
+    "difficulty": "중급",
+    "topic": "코드 응용",
+    "prompt": "정수 count가 5에서 시작한다. count>0인 동안 본문을 실행한 후 count를 1 줄인다. 범위 넘김이 없을 때 이 반복문이 반드시 종료하는 이유를 쓰시오.",
+    "answer": "count는 5, 4, 3, 2, 1, 0으로 감소한다. 매 반복마다 1씩 줄어들고 0에서 조건이 거짓이 되므로 5회 후 종료한다. 본문에서 count를 다시 늘리지 않는다는 조건이 필요하다.",
+    "explanation": "",
+    "sourceType": "교재 기반",
+    "source": "TypeBook 7.7 · 응용",
+    "grading": "self",
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "7.7",
+      "key": "unibook-extension-89"
+    },
+    "id": 887,
+    "uid": "dabc901db03b743f",
+    "review": {
+      "focus": "감소 변수에 의한 반복 종료 논증",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 887
+    }
+  },
+  {
+    "topic": "기말 종합",
+    "difficulty": "중급",
+    "prompt": "Pep/8 코드 `D1 001D`가 주소 001D의 바이트 81을 읽은 뒤 `F1 0009`를 실행했습니다. 주소 0009에 저장되는 값은?",
+    "answer": "81 — F1은 A 레지스터의 하위 바이트를 지정 주소에 저장하므로 0009의 값은 81이 됩니다.",
+    "explanation": "",
+    "week": 8,
+    "source": "TypeBook 6.2·6.3·7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 876,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2·6.3·7.6·7.7",
+      "basis": "명령·메모리 변화와 성능 계산"
+    },
+    "grading": "self",
+    "id": 889,
+    "uid": "d888a6f689ae1b4f",
+    "review": {
+      "focus": "바이트 적재 저장 연결 추적",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 889
+    },
+    "code": "D1 00 1D\nF1 00 09"
+  },
+  {
+    "topic": "기말 종합",
+    "difficulty": "중급",
+    "prompt": "A = 0005인 상태에서 메모리 0019의 워드가 0003이고 `ANDA 0019,d`를 실행했습니다. A의 16진수 결과는?",
+    "answer": "0001 — 0005 AND 0003은 비트 단위 연산 결과 0001입니다.",
+    "explanation": "",
+    "week": 8,
+    "source": "TypeBook 6.2·6.3·7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 888,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2·6.3·7.6·7.7",
+      "basis": "명령·메모리 변화와 성능 계산"
+    },
+    "grading": "self",
+    "id": 901,
+    "uid": "563a92e61f55ff8d",
+    "review": {
+      "focus": "ANDA 비트 마스크 계산",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 901
+    },
+    "code": "; 초기 A=0x0005, [0x0019..0x001A]=00 03\nANDA 0x0019,d"
+  },
+  {
+    "topic": "기말 종합",
+    "difficulty": "초급",
+    "prompt": "count = 3에서 시작해 매 반복마다 1을 빼고 count가 0이 아니면 반복한다면 반복 본문은 총 몇 번 실행되나요?",
+    "answer": "3 — count가 3, 2, 1인 세 번 실행된 뒤 0에서 종료합니다.",
+    "explanation": "",
+    "week": 8,
+    "source": "TypeBook 6.2·6.3·7.6·7.7",
+    "sourceType": "교재 기반",
+    "legacyId": 984,
+    "provenance": {
+      "kind": "reviewed-textbook",
+      "document": "프로그래머를 위한 컴퓨터구조",
+      "section": "6.2·6.3·7.6·7.7",
+      "basis": "명령·메모리 변화와 성능 계산"
+    },
+    "grading": "self",
+    "id": 942,
+    "uid": "1187d0c79714f2ea",
+    "review": {
+      "focus": "감소 루프의 본문 실행 횟수",
+      "basis": "제공 기출의 단원별 요구 수준과 비교; 풀이·조건 확인",
+      "status": "reviewed",
+      "previousId": 942
+    }
+  }
+]

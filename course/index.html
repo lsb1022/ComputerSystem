@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="컴퓨터시스템개론 멘토링 학습 포털" />
+  <title>컴시개에서 살아남기</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header" id="sidebar">
+      <a class="brand" href="#/" data-view="home" aria-label="홈으로">
+        <span class="brand-mark">C/S</span>
+        <strong>컴시개에서 살아남기</strong>
+      </a>
+      <button class="menu-button" id="menuButton" aria-label="메뉴 열기">☰</button>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a class="nav-item active" href="#/" data-view="home">홈</a>
+        <a class="nav-item" href="#/lessons" data-view="lessons">강의</a>
+        <a class="nav-item" href="#/assignments" data-view="assignments">과제</a>
+        <a class="nav-item" href="#/resources" data-view="resources">자료실</a>
+        <a class="nav-item" href="#/community" data-view="community">커뮤니티</a>
+        <a class="nav-item challenge-mobile" href="#/challenge" data-view="challenge">도전 220제</a>
+        <a class="nav-item" href="#/about" data-view="about">안내</a>
+      </nav>
+      <div class="sidebar-footer">
+        <a class="challenge-header-link" href="#/challenge" data-view="challenge">도전 220제</a>
+        <a class="contact-button" href="mailto:lsb1022@soongsil.ac.kr">문의하기</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="content">
+        <section class="view active" id="homeView">
+          <div class="welcome-row">
+            <div>
+              <h1>컴퓨터시스템개론<br>멘토링</h1>
+              <p class="intro">매주 목요일 18:00 · 멘토 이승빈</p>
+            </div>
+          </div>
+
+          <section class="next-card">
+            <div class="next-date"><span>다음 수업</span><strong>10.01</strong></div>
+            <div class="next-copy"><p class="card-kicker">1주차</p><h2>컴퓨터는 어떻게 움직일까?</h2><p>컴퓨터 구조 · 하드웨어 · 부팅 · 2진수</p></div>
+            <button class="next-link" data-open-week="1" aria-label="1주차 강의 살펴보기"><span>살펴보기</span><span class="next-arrow" aria-hidden="true">↗</span></button>
+          </section>
+
+          <div class="section-heading"><h2>전체 강의</h2><button class="text-button" data-go="lessons">자세히 보기 →</button></div>
+          <div class="journey" id="journey"></div>
+
+          <div class="dashboard-grid progress-only">
+            <section class="panel"><div class="panel-title"><h3>학습 진도</h3><span id="progressText">0 / 8 완료</span></div><div class="progress-track"><i id="progressBar"></i></div></section>
+          </div>
+        </section>
+
+        <section class="view" id="lessonsView">
+          <div class="page-heading"><div><h1>주차별 강의</h1></div><div class="filter-chips"><button class="chip active" data-filter="all">전체</button><button class="chip" data-filter="complete">완료</button><button class="chip" data-filter="planned">예정</button></div></div>
+          <div class="lesson-grid" id="lessonGrid"></div>
+        </section>
+
+        <section class="view" id="assignmentsView">
+          <div class="page-heading"><div><h1>과제</h1></div></div>
+          <div class="assignment-list" id="assignmentList"></div>
+        </section>
+
+        <section class="view" id="resourcesView">
+          <div class="page-heading"><div><h1>자료실</h1></div></div>
+          <div class="resource-grid">
+            <a class="resource-card" href="./resources/mentoring-plan.pdf" download><span class="file-icon">PDF</span><div><h3>멘토링 강의 계획서</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2025-globalmedia-midterm.pdf" download><span class="file-icon">PDF</span><div><h3>2025 글미 중간고사</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2025-media-midterm.pdf" download><span class="file-icon">PDF</span><div><h3>2025 미경 중간고사</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2025-media-final.pdf" download><span class="file-icon">PDF</span><div><h3>2025 미경 기말고사</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2024-past-exam.pdf" download="2024 기출.pdf"><span class="file-icon">PDF</span><div><h3>2024 기출</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2024-memory-review.pdf" download="2024 암기문항 정리.pdf"><span class="file-icon">PDF</span><div><h3>2024 암기문항 정리</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2023-past-exam.pdf" download="2023 기출.pdf"><span class="file-icon">PDF</span><div><h3>2023 기출</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2023-solutions.pdf" download="2023 기출 답지.pdf"><span class="file-icon">PDF</span><div><h3>2023 기출 답지</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/2021-2022-past-exams.pdf" download="2021·2022 기출.pdf"><span class="file-icon">PDF</span><div><h3>2021·2022 기출</h3></div><b>다운로드</b></a>
+            <a class="resource-card" href="./resources/itc101-answers.pdf" download><span class="file-icon">PDF</span><div><h3>부교재 연습문제 해답</h3></div><b>다운로드</b></a>
+          </div>
+          <div class="info-box"><strong>교재 안내</strong><p>주교재는 「프로그래머를 위한 컴퓨터구조」, 부교재는 「인공지능 시대를 위한 컴퓨터 과학 개론」입니다. 교재 원문은 수업에서 안내한 공유 경로를 이용해 주세요.</p></div>
+        </section>
+
+        <section class="view" id="communityView">
+          <div class="page-heading"><div><h1>커뮤니티</h1><p>궁금한 점과 수업 의견을 함께 나눠요.</p></div><button class="primary-button" id="writePostButton">글쓰기</button></div>
+          <form class="community-form" id="communityForm" hidden>
+            <div class="form-row"><label>분류<select id="postCategory"><option>질문</option><option>의견</option></select></label><label>이름<input id="postAuthor" maxlength="20" placeholder="이름" /></label></div>
+            <label class="anonymous-row"><input id="postAnonymous" type="checkbox" /> 익명으로 작성</label>
+            <label>제목<input id="postTitle" maxlength="80" required placeholder="제목을 입력하세요" /></label>
+            <label>내용<textarea id="postContent" maxlength="2000" required rows="6" placeholder="질문이나 의견을 구체적으로 적어주세요"></textarea></label>
+            <div class="form-actions"><button type="button" class="text-button" id="cancelPostButton">취소</button><button class="primary-button" type="submit">등록하기</button></div>
+            <p class="form-message" id="postMessage" role="status"></p>
+          </form>
+          <div class="community-list" id="communityList"><p class="muted">게시글을 불러오는 중입니다.</p></div>
+        </section>
+
+        <section class="view challenge-view" id="challengeView">
+          <div class="challenge-head"><div><h1>도전 220제</h1><p>1–8주차</p></div><div class="challenge-summary"><strong id="challengeSolved">0</strong><span>/ 220 해결</span><div class="challenge-progress"><i id="challengeProgressBar"></i></div></div></div>
+          <div class="challenge-toolbar"><label>주차<select id="challengeWeek"><option value="all">전체</option><option value="1">1주차</option><option value="2">2주차</option><option value="3">3주차</option><option value="4">4주차</option><option value="5">5주차</option><option value="6">6주차</option><option value="7">7주차</option><option value="8">8주차</option></select></label><label>주제<select id="challengeTopic"></select></label><label>난이도<select id="challengeDifficulty"><option value="all">전체</option><option value="초급">초급</option><option value="중급">중급</option><option value="상급">상급</option></select></label><label>출처<select id="challengeSource"><option value="all">전체</option><option value="기출">기출</option><option value="기출 변형">기출 변형</option><option value="교재 기반">교재 기반</option></select></label><label>상태<select id="challengeStatus"><option value="all">전체</option><option value="unsolved">안 푼 문제</option><option value="correct">맞힌 문제</option><option value="wrong">다시 풀 문제</option></select></label><button class="text-button" id="challengeRandom"><span>무작위 문제</span></button></div>
+          <div class="challenge-layout"><aside class="challenge-index"><div class="challenge-index-head"><strong>문제 목록</strong><span id="challengeCount">220개</span></div><div class="challenge-number-grid" id="challengeNumberGrid"></div><h2 class="advanced-index-title">심화</h2><div id="advancedNumbers" class="challenge-number-grid roman-grid"></div></aside><article class="challenge-problem" id="challengeProblem"></article></div>
+        </section>
+
+        <section class="view" id="aboutView">
+          <div class="page-heading"><div><h1>강의 안내</h1></div></div>
+          <div class="about-layout"><article class="about-copy"><h2>안녕하세요. “컴시개에서 살아남기” 멘토 이승빈입니다.</h2><p>이 멘토링은 진도가 빠릅니다. 3주차부터는 본 강의보다 앞서 나갈 수 있어서 처음에는 따라갈 수 있을지 걱정될 수도 있습니다. 하지만 과제를 차근차근 따라오면 컴퓨터를 처음 접하는 학생도 컴퓨터시스템개론의 전체 흐름을 잡을 수 있도록 구성했습니다.</p><p>수업 자료는 본 강의에서 같은 내용을 배운 뒤에도 다시 찾아볼 수 있게 제공합니다. 과제는 필수·응용·도전 단계로 나누어 두었으니, 전부 풀려고 무리하기보다 자신의 수준에 맞는 문제부터 시작하면 됩니다. 중요한 것은 정답의 개수가 아니라 막힌 지점을 발견하고 다음 수업에서 해결하는 과정입니다.</p><p>정기철 교수님의 본 수업은 반드시 함께 들어주세요. 이 멘토링은 본 강의를 대신하지 않습니다. 본 수업을 더 잘 이해하고, 알고 있는 내용을 시험에서 정확히 꺼낼 수 있도록 돕는 보조 수업입니다.</p><p><strong>한 학기 동안 함께 살아남아서 좋은 성적 받아봅시다.</strong></p></article><aside class="course-facts"><div><small>시간</small><strong>매주 목요일 18:00</strong></div><div><small>대상</small><strong>컴퓨터시스템개론 수강생</strong></div><div><small>주교재</small><strong>프로그래머를 위한 컴퓨터구조</strong></div><div><small>부교재</small><strong>인공지능 시대를 위한 컴퓨터 과학 개론</strong></div><div><small>멘토</small><strong>이승빈</strong></div><a href="mailto:lsb1022@soongsil.ac.kr">이메일 문의</a></aside></div>
+        </section>
+
+        <section class="view" id="detailView"><button class="back-button" id="backButton">← 주차별 강의</button><div id="lessonDetail"></div></section>
+        <section class="view" id="assignmentDetailView"><button class="back-button" id="assignmentBackButton">← 과제 목록</button><div id="assignmentDetail"></div></section>
+      </div>
+    </main>
+  </div>
+  <div class="overlay" id="overlay"></div>
+  
+  
+  
+  
+  <link rel="stylesheet" href="/readability.css">
+  
+
+<script src="/api/assets?name=bootstrap.js"></script></body>
+</html>
